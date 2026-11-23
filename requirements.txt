@@ -34,7 +34,7 @@ Pillow
 feedparser
 requests
 tinyfish
-
+six
 # PostgreSQL
 psycopg[binary,pool]
 
