@@ -1,40 +1,48 @@
-# Multi-agent orchestration (from previous project)
-langgraph==1.2.2
-langchain==1.3.2
-langchain-groq==1.1.3
-langchain-tavily==0.2.18
+# CryptoGuardian — backend and agent dependencies
 
-# LLM and web search
-groq
-tavily-python
+# API server and real-time dashboard communication
+fastapi
+uvicorn[standard]
+python-multipart
+websockets
 
-# Environment configuration
-python-dotenv
+# Multi-agent orchestration
+langgraph
+langgraph-checkpoint-postgres
 
-# PostgreSQL and LangGraph checkpoints
-psycopg[binary,pool]==3.3.4
-langgraph-checkpoint-postgres==3.1.0
+# AI model APIs
+google-genai
+openai
 
-# Crypto market data and analysis
+# Local Kronos forecasting model
+torch
+transformers
+huggingface-hub
+einops
+
+# Market data and numerical analysis
 ccxt
 pandas
 numpy
 
-# News fetching and HTTP
+# Chart generation and image processing
+matplotlib
+mplfinance
+Pillow
+
+# News collection
 feedparser
 requests
+tinyfish
 
-# Observability
+# PostgreSQL
+psycopg[binary,pool]
+
+# Environment configuration and observability
+python-dotenv
 langsmith
 
-# API server
-fastapi
-python-multipart
-uvicorn
-jinja2
+# Testing
+pytest
+httpx
 
-# Dashboard and data export
-streamlit
-plotly
-openpyxl
-pyarrow
