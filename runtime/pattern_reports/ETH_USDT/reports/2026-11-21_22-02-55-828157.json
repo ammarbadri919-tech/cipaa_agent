@@ -1,0 +1,214 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-21T22:02:54.157564+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-21T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-21T22:02:14+05:30",
+    "last_price": 1684.36,
+    "candle_timestamp": 1795278600000,
+    "open": 1683.01,
+    "high": 1685.39,
+    "low": 1682.11,
+    "close": 1684.36,
+    "volume": 323.2886,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1675.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulse rally from approximately 1550 to 1705 followed by a shallow downward drift and consolidation from 1705 to current price around 1684, forming a downward-sloping flag channel.",
+        "missing_conditions": "Breakout above flag resistance near 1700 to confirm continuation; price must remain above flag support near 1675."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1685.0,
+          "trigger_level": 1680.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price has made two rejections near the 1700-1710 resistance area after the rally and is currently retesting support around 1684-1685.",
+        "missing_conditions": "Clear breakdown below neckline support near 1685 to confirm reversal; second top must be clearly defined and distinct."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1675.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulse rally from approximately 1550 to 1705 followed by a shallow downward drift and consolidation from 1705 to current price around 1684, forming a downward-sloping flag channel.",
+        "missing_conditions": "Breakout above flag resistance near 1700 to confirm continuation; price must remain above flag support near 1675.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T16:32:54.148130+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1685.0,
+          "trigger_level": 1680.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price has made two rejections near the 1700-1710 resistance area after the rally and is currently retesting support around 1684-1685.",
+        "missing_conditions": "Clear breakdown below neckline support near 1685 to confirm reversal; second top must be clearly defined and distinct.",
+        "pattern_id": "5dd3eff5-db63-4e82-9559-3278f7e615ca",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:54.148130+00:00",
+        "last_seen": "2026-11-21T16:32:54.148130+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rallied strongly from approximately 1550 to 1705 and is now consolidating in a slight downward channel consistent with a bullish flag. Resistance is clustered near 1700-1710 with potential for a double top formation if support fails.",
+    "limitations": [
+      "Current 15-minute candle may still be forming.",
+      "Pattern confirmation requires a decisive breakout beyond key levels.",
+      "Intraday chart noise may invalidate formations before completion."
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.7885142235037196,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "current_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1675.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulse rally from approximately 1550 to 1705 followed by a shallow downward drift and consolidation from 1705 to current price around 1684, forming a downward-sloping flag channel.",
+        "missing_conditions": "Breakout above flag resistance near 1700 to confirm continuation; price must remain above flag support near 1675."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1685.0,
+          "trigger_level": 1680.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price has made two rejections near the 1700-1710 resistance area after the rally and is currently retesting support around 1684-1685.",
+        "missing_conditions": "Clear breakdown below neckline support near 1685 to confirm reversal; second top must be clearly defined and distinct."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1675.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulse rally from approximately 1550 to 1705 followed by a shallow downward drift and consolidation from 1705 to current price around 1684, forming a downward-sloping flag channel.",
+        "missing_conditions": "Breakout above flag resistance near 1700 to confirm continuation; price must remain above flag support near 1675.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T16:32:54.148130+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1705.0,
+          "level_low": 1685.0,
+          "trigger_level": 1680.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price has made two rejections near the 1700-1710 resistance area after the rally and is currently retesting support around 1684-1685.",
+        "missing_conditions": "Clear breakdown below neckline support near 1685 to confirm reversal; second top must be clearly defined and distinct.",
+        "pattern_id": "5dd3eff5-db63-4e82-9559-3278f7e615ca",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:54.148130+00:00",
+        "last_seen": "2026-11-21T16:32:54.148130+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

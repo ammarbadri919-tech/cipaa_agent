@@ -1,0 +1,414 @@
+Checking database connection...
+Database is ready.
+
+CryptoGuardian News Monitor is running...
+Monitoring CSV: selected_coins.csv
+RSS checks every 30 seconds.
+TinyFish fallback checks every 15 minutes.
+Articles are retained for 3 hours after fetching.
+Press CTRL+C to stop.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+
+TinyFish sleeping for 10 minutes...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 10
+Bitcoin (BTC): 6 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 10
+Bitcoin (BTC): 6 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 10
+Bitcoin (BTC): 6 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 8
+Bitcoin (BTC): 5 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== TINYFISH LATEST NEWS CHECK ==========
+
+Starting TinyFish fallback job...
+Loaded 3 selected coins from selected_coins.csv.
+Bitcoin (BTC): RSS found no relevant news; searching with TinyFish.
+Total results reported: 2
+Results on this page: 2
+Keep: Chainflip Hacker Steals $12 Million as FLIP Token Craters 69%
+Keep: Ethereum price rises slightly above $1,700, but can ETH sustain the rebound?
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+Bitcoin (BTC): No relevant news found.
+Ethereum (ETH): RSS found no relevant news; searching with TinyFish.
+Total results reported: 2
+Results on this page: 2
+Keep: Ethereum price rises slightly above $1,700, but can ETH sustain the rebound?
+Keep: Chainflip Hacker Steals $12 Million as FLIP Token Craters 69%
+RSS articles received: 7
+Ethereum (ETH): 1 relevant TinyFish articles; 1 new articles saved.
+Pepe (PEPE): RSS found no relevant news; searching with TinyFish.
+Total results reported: 0
+Results on this page: 0
+Pepe (PEPE): No relevant news found.
+Old articles deleted: 0
+TinyFish job complete.
+
+TinyFish sleeping for 10 minutes...
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 0 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 1 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS request failed for CryptoSlate: 429 Client Error: Too Many Requests for url: https://cryptoslate.com/feed/
+RSS articles received: 6
+Bitcoin (BTC): 3 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.
+
+========== RSS CHECK ==========
+
+Starting RSS job...
+Loaded 3 selected coins from selected_coins.csv.
+RSS articles received: 7
+Bitcoin (BTC): 4 relevant RSS articles; 0 new articles saved.
+Ethereum (ETH): 1 relevant RSS articles; 0 new articles saved.
+Pepe (PEPE): 0 relevant RSS articles; 0 new articles saved.
+Old articles deleted: 0
+RSS job complete.

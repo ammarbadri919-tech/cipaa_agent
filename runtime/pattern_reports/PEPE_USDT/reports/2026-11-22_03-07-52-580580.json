@@ -1,0 +1,381 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-22T03:07:52.568971+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-22T03:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-22T03:07:13+05:30",
+    "last_price": 3.4e-06,
+    "candle_timestamp": 1795296600000,
+    "open": 3.42e-06,
+    "high": 3.42e-06,
+    "low": 3.4e-06,
+    "close": 3.4e-06,
+    "volume": 14911976289.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.45e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.45e-06,
+          "invalidation_level": 3.3e-06
+        },
+        "confidence": 60,
+        "evidence": "Recent price action shows converging lower highs and higher lows in a tight consolidation range around 0.0000034 after rejection from 0.0000035.",
+        "missing_conditions": "Breakout above 0.00000345 or breakdown below 0.00000335 has not yet occurred."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.25e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "Two swing highs near 0.0000035 are visible, separated by a decline to approximately 0.00000325. Price is currently declining from the second peak but has not broken the neckline.",
+        "missing_conditions": "Confirmation requires a decisive break below the neckline support around 0.00000325."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "A sharp rally into 0.0000035 was followed by a downward-drifting consolidation structure.",
+        "missing_conditions": "Break below flag support around 0.00000335 to confirm continuation lower."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.25e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "Two swing highs near 0.0000035 are visible, separated by a decline to approximately 0.00000325. Price is currently declining from the second peak but has not broken the neckline.",
+        "missing_conditions": "Confirmation requires a decisive break below the neckline support around 0.00000325.",
+        "pattern_id": "4a126e2b-0d99-40ec-becd-78ff5c3aa934",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T21:37:52.565391+00:00",
+        "detections": 34,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.38e-06,
+          "invalidation_level": 3.48e-06
+        },
+        "confidence": 55,
+        "evidence": "Prior bullish structure rejected at 0.0000035 resistance, with price failing to make new highs and consolidating below recent swing high.",
+        "missing_conditions": "Clear break of structure below the most recent higher low to confirm bearish CHoCH.",
+        "pattern_id": "3db3f5d3-d92b-44fc-94c4-a587eabaa297",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:13.716579+00:00",
+        "last_seen": "2026-11-21T21:32:51.691133+00:00",
+        "detections": 22,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.45e-06,
+          "invalidation_level": 3.3e-06
+        },
+        "confidence": 60,
+        "evidence": "Strong upward impulse from the 12:15 area low to the 0.0000035 high, followed by a tight consolidation near the top of the move.",
+        "missing_conditions": "Breakout above the consolidation resistance to confirm bullish continuation.",
+        "pattern_id": "3575da1a-7079-4e83-8757-ee0f7f9ddb21",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:42:50.205787+00:00",
+        "last_seen": "2026-11-21T21:32:51.691133+00:00",
+        "detections": 15,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "A sharp rally into 0.0000035 was followed by a downward-drifting consolidation structure.",
+        "missing_conditions": "Break below flag support around 0.00000335 to confirm continuation lower.",
+        "pattern_id": "33e30798-1fd1-4633-bb7e-ac79e7aa1ee7",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T17:52:09.582202+00:00",
+        "last_seen": "2026-11-21T21:37:52.565391+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Doji",
+        "type": "CANDLESTICK",
+        "direction": "NEUTRAL",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.45e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.4e-06,
+          "invalidation_level": 3.4e-06
+        },
+        "confidence": 52,
+        "evidence": "Recent candles near 0.0000034 show small bodies with upper and lower wicks, indicating indecision and potential doji formation.",
+        "missing_conditions": "Current candle close required to confirm doji; directional bias pending next candle.",
+        "pattern_id": "307e5eba-3e82-4da7-aafa-4e7acd884e81",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T18:00:35.442834+00:00",
+        "last_seen": "2026-11-21T21:17:55.004570+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.45e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.45e-06,
+          "invalidation_level": 3.3e-06
+        },
+        "confidence": 60,
+        "evidence": "Recent price action shows converging lower highs and higher lows in a tight consolidation range around 0.0000034 after rejection from 0.0000035.",
+        "missing_conditions": "Breakout above 0.00000345 or breakdown below 0.00000335 has not yet occurred.",
+        "pattern_id": "18e269e6-b3b5-46a5-b619-5300b7fbf114",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T18:01:50.495751+00:00",
+        "last_seen": "2026-11-21T21:37:52.565391+00:00",
+        "detections": 13,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Pennant",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.45e-06,
+          "level_low": 3.38e-06,
+          "trigger_level": 3.38e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 65,
+        "evidence": "Sharp decline from the 0.0000035 resistance followed by tight sideways consolidation with contracting price action in recent candles.",
+        "missing_conditions": "Clear breakdown below the lower boundary of the pennant formation.",
+        "pattern_id": "64c0a3bb-bb79-454c-9c67-399a73f4e7b9",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T18:07:55.190065+00:00",
+        "last_seen": "2026-11-21T18:07:55.190065+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.55e-06,
+          "level_low": 3.4e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.6e-06
+        },
+        "confidence": 55,
+        "evidence": "Candles near the 20:00 peak show upper wicks extending above 0.0000035, indicating a possible sweep of buy-side liquidity above recent highs before the downward reversal.",
+        "missing_conditions": "Sustained bearish follow-through is required to confirm the sweep resulted in a reversal rather than a continuation higher.",
+        "pattern_id": "d2ff85a4-bb0d-40b2-b12e-8183be83ce3c",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T19:28:39.133419+00:00",
+        "last_seen": "2026-11-21T19:28:39.133419+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.52e-06
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing highs near 0.0000035 separated by a decline to approximately 0.0000032. Price is currently consolidating near the second peak at resistance.",
+        "missing_conditions": "Break below neckline support around 0.00000335 to confirm reversal.",
+        "pattern_id": "0d44d246-02d1-4754-9f76-2b102ee45af4",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T21:11:03.942568+00:00",
+        "last_seen": "2026-11-21T21:11:03.942568+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "Lower highs forming from 0.0000035 toward 0.00000345 with price testing support near 0.00000335-0.0000034.",
+        "missing_conditions": "Clear breakdown below horizontal support at ~0.00000335.",
+        "pattern_id": "5db328fa-4289-4db8-aa52-30656685ec0e",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T21:16:36.540695+00:00",
+        "last_seen": "2026-11-21T21:16:36.540695+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.2e-06,
+          "trigger_level": 3.4e-06,
+          "invalidation_level": 3.2e-06
+        },
+        "confidence": 72,
+        "evidence": "Price broke above prior swing highs after establishing a higher low at approximately 0.0000032, confirming bullish market structure shift.",
+        "missing_conditions": "None required for BOS confirmation; awaiting continuation or retest.",
+        "pattern_id": "8e78ad86-5037-48dd-ae43-4076f9bdb445",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T21:17:55.004570+00:00",
+        "last_seen": "2026-11-21T21:17:55.004570+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.4e-06,
+          "trigger_level": 3.38e-06,
+          "invalidation_level": 3.52e-06
+        },
+        "confidence": 70,
+        "evidence": "Left shoulder high near 0.0000035 around 04:00, head high near 0.0000035 around 19:00, right shoulder forming lower near current price 0.00000342. Neckline support around 0.0000034.",
+        "missing_conditions": "Right shoulder not yet complete, neckline breakdown not yet occurred.",
+        "pattern_id": "2d4257c1-8574-4c09-b38e-2e20d59f620a",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T21:20:56.300640+00:00",
+        "last_seen": "2026-11-21T21:20:56.300640+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price is consolidating after two tests of 0.0000035 resistance, forming lower highs and higher lows in a compressed range.",
+    "limitations": [
+      "Latest candle may still be forming and could alter pattern structure.",
+      "Pattern confirmation requires breakout confirmation; no breakout is guaranteed.",
+      "Intraday 15m noise may invalidate developing formations before completion."
+    ]
+  },
+  "gemini_decision": {
+    "decision": "UNAVAILABLE",
+    "reason": "Gemini API request failed"
+  }
+}

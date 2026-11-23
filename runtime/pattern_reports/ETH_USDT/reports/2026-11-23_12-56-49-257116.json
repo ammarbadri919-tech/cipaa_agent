@@ -1,0 +1,406 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T12:56:32.398293+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T12:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T12:55:27+05:30",
+    "last_price": 1724.11,
+    "candle_timestamp": 1795418100000,
+    "open": 1727.16,
+    "high": 1727.66,
+    "low": 1722.23,
+    "close": 1724.11,
+    "volume": 1256.7693,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1740.0,
+          "level_low": 1715.0,
+          "trigger_level": 1735.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 68,
+        "evidence": "Strong impulsive upward move around 08:00 from approximately 1700 to 1740 followed by slight downward/sideways consolidation near current price 1724.11.",
+        "missing_conditions": "Clear breakout above flag resistance around 1735 to confirm continuation."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1730.0,
+          "level_low": 1700.0,
+          "trigger_level": 1725.0,
+          "invalidation_level": 1695.0
+        },
+        "confidence": 62,
+        "evidence": "Price broke above recent swing highs around 1720-1730 after establishing lower highs during the prior range-bound structure.",
+        "missing_conditions": "Sustained close and follow-through above the broken structure level to confirm bullish shift."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 1740.0,
+          "level_low": 1700.0,
+          "trigger_level": 1730.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish/sideways to bullish with a decisive break above prior swing highs around 1720-1730 during the 08:00 rally to 1740.",
+        "missing_conditions": "None required for CHoCH confirmation; awaiting follow-through to sustain bullish structure.",
+        "pattern_id": "2812d56e-8fa3-45cb-aa23-c881903dc0f9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:55.944978+00:00",
+        "last_seen": "2026-11-23T07:17:55.944978+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1740.0,
+          "level_low": 1715.0,
+          "trigger_level": 1735.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 68,
+        "evidence": "Strong impulsive upward move around 08:00 from approximately 1700 to 1740 followed by slight downward/sideways consolidation near current price 1724.11.",
+        "missing_conditions": "Clear breakout above flag resistance around 1735 to confirm continuation.",
+        "pattern_id": "c6f560ec-92a2-44a8-9abd-004cf23d0b0f",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:55.944978+00:00",
+        "last_seen": "2026-11-23T07:26:32.394326+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1700.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1690.0
+        },
+        "confidence": 60,
+        "evidence": "Wick down to approximately 1700 around 08:00 before strong reversal rally to 1740, indicating stop liquidity was swept below prior lows.",
+        "missing_conditions": "None; sweep and reversal are visible.",
+        "pattern_id": "983ee324-31bf-47d9-8e6a-b46d5f9ad40e",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:55.944978+00:00",
+        "last_seen": "2026-11-23T07:17:55.944978+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Fair Value Gap",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1738.0,
+          "level_low": 1710.0,
+          "trigger_level": 1722.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 70,
+        "evidence": "Large impulsive bullish candle around 08:00 created a visible price imbalance; price is currently retracing into the gap zone near 1722.",
+        "missing_conditions": "Price reaction/bounce from the FVG to confirm support and continuation.",
+        "pattern_id": "bc048f8b-d4ae-41c7-a9e6-7a8e018984c2",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:48.797801+00:00",
+        "last_seen": "2026-11-23T07:22:48.797801+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1730.0,
+          "level_low": 1700.0,
+          "trigger_level": 1725.0,
+          "invalidation_level": 1695.0
+        },
+        "confidence": 62,
+        "evidence": "Price broke above recent swing highs around 1720-1730 after establishing lower highs during the prior range-bound structure.",
+        "missing_conditions": "Sustained close and follow-through above the broken structure level to confirm bullish shift.",
+        "pattern_id": "72e21cc1-0677-4e37-903e-0e21dccf53a7",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:48.797801+00:00",
+        "last_seen": "2026-11-23T07:26:32.394326+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1735.0,
+          "level_low": 1715.0,
+          "trigger_level": 1730.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price action compressing with lower highs and higher lows after the impulse, forming converging trendlines near current price.",
+        "missing_conditions": "Clear breakout above resistance or below support to activate the pattern.",
+        "pattern_id": "06251766-d000-4871-ac6e-f5eb10150e24",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:48.797801+00:00",
+        "last_seen": "2026-11-23T07:22:48.797801+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price recently broke out of a 1700-1720 range with a strong impulsive move to 1740 around 08:00, followed by consolidation near 1724.11. Volume spiked during the breakout move.",
+    "limitations": [
+      "Latest candle may still be forming, exact open/close not visible.",
+      "Key levels are visual estimates from chart grid.",
+      "Pattern confirmation requires future price action."
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.9647040752233241,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1740.0,
+          "level_low": 1715.0,
+          "trigger_level": 1735.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 68,
+        "evidence": "Strong impulsive upward move around 08:00 from approximately 1700 to 1740 followed by slight downward/sideways consolidation near current price 1724.11.",
+        "missing_conditions": "Clear breakout above flag resistance around 1735 to confirm continuation."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1730.0,
+          "level_low": 1700.0,
+          "trigger_level": 1725.0,
+          "invalidation_level": 1695.0
+        },
+        "confidence": 62,
+        "evidence": "Price broke above recent swing highs around 1720-1730 after establishing lower highs during the prior range-bound structure.",
+        "missing_conditions": "Sustained close and follow-through above the broken structure level to confirm bullish shift."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 1740.0,
+          "level_low": 1700.0,
+          "trigger_level": 1730.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish/sideways to bullish with a decisive break above prior swing highs around 1720-1730 during the 08:00 rally to 1740.",
+        "missing_conditions": "None required for CHoCH confirmation; awaiting follow-through to sustain bullish structure.",
+        "pattern_id": "2812d56e-8fa3-45cb-aa23-c881903dc0f9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:55.944978+00:00",
+        "last_seen": "2026-11-23T07:17:55.944978+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1740.0,
+          "level_low": 1715.0,
+          "trigger_level": 1735.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 68,
+        "evidence": "Strong impulsive upward move around 08:00 from approximately 1700 to 1740 followed by slight downward/sideways consolidation near current price 1724.11.",
+        "missing_conditions": "Clear breakout above flag resistance around 1735 to confirm continuation.",
+        "pattern_id": "c6f560ec-92a2-44a8-9abd-004cf23d0b0f",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:55.944978+00:00",
+        "last_seen": "2026-11-23T07:26:32.394326+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1700.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1690.0
+        },
+        "confidence": 60,
+        "evidence": "Wick down to approximately 1700 around 08:00 before strong reversal rally to 1740, indicating stop liquidity was swept below prior lows.",
+        "missing_conditions": "None; sweep and reversal are visible.",
+        "pattern_id": "983ee324-31bf-47d9-8e6a-b46d5f9ad40e",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:55.944978+00:00",
+        "last_seen": "2026-11-23T07:17:55.944978+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Fair Value Gap",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1738.0,
+          "level_low": 1710.0,
+          "trigger_level": 1722.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 70,
+        "evidence": "Large impulsive bullish candle around 08:00 created a visible price imbalance; price is currently retracing into the gap zone near 1722.",
+        "missing_conditions": "Price reaction/bounce from the FVG to confirm support and continuation.",
+        "pattern_id": "bc048f8b-d4ae-41c7-a9e6-7a8e018984c2",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:48.797801+00:00",
+        "last_seen": "2026-11-23T07:22:48.797801+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1730.0,
+          "level_low": 1700.0,
+          "trigger_level": 1725.0,
+          "invalidation_level": 1695.0
+        },
+        "confidence": 62,
+        "evidence": "Price broke above recent swing highs around 1720-1730 after establishing lower highs during the prior range-bound structure.",
+        "missing_conditions": "Sustained close and follow-through above the broken structure level to confirm bullish shift.",
+        "pattern_id": "72e21cc1-0677-4e37-903e-0e21dccf53a7",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:48.797801+00:00",
+        "last_seen": "2026-11-23T07:26:32.394326+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1735.0,
+          "level_low": 1715.0,
+          "trigger_level": 1730.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price action compressing with lower highs and higher lows after the impulse, forming converging trendlines near current price.",
+        "missing_conditions": "Clear breakout above resistance or below support to activate the pattern.",
+        "pattern_id": "06251766-d000-4871-ac6e-f5eb10150e24",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:48.797801+00:00",
+        "last_seen": "2026-11-23T07:22:48.797801+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

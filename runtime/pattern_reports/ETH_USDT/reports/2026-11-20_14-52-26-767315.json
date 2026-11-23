@@ -1,0 +1,215 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-20T14:52:25.716129+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-20T14:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-20T14:51:44+05:30",
+    "last_price": 1752.73,
+    "candle_timestamp": 1795166100000,
+    "open": 1749.74,
+    "high": 1754.24,
+    "low": 1745.7,
+    "close": 1752.73,
+    "volume": 901.9525,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1725.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1725.0
+        },
+        "confidence": 70,
+        "evidence": "Prior market structure was bearish with lower highs and lower lows. Price formed a low near 1725 and impulsively rallied to reclaim the approximately 1760 swing high, indicating a potential structural shift from bearish to bullish.",
+        "pattern_id": "5e7ff96f-b32c-4afc-b861-6fd044474bc4",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:37.509255+00:00",
+        "last_seen": "2026-11-20T09:22:25.715266+00:00",
+        "detections": 12,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1720.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1715.0
+        },
+        "confidence": 65,
+        "evidence": "Two distinct swing lows visible near 1730 and 1720 with an intervening rally; price currently retesting the neckline resistance zone around 1750-1760.",
+        "pattern_id": "9f785a56-f2dc-4bb8-b2b3-399b31659ab3",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:37.509255+00:00",
+        "last_seen": "2026-11-20T09:21:26.903782+00:00",
+        "detections": 8,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1745.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1740.0
+        },
+        "confidence": 55,
+        "evidence": "A sharp impulsive rally occurred from approximately 1725 to 1760. Price is currently in early consolidation near the top of that move, which could form a bullish flag.",
+        "pattern_id": "aefcb3b5-0a91-4d7d-923a-5456a6b81d9a",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:37.509255+00:00",
+        "last_seen": "2026-11-20T09:22:25.715266+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1725.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1725.0
+        },
+        "confidence": 60,
+        "evidence": "A left shoulder area is visible near 1740, followed by a lower head near 1725. The subsequent rally to approximately 1760 suggests the right shoulder formation may be initiating as price pulls back from the highs.",
+        "pattern_id": "b718e9dc-5ed7-4d1b-b65c-e06188e87a78",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:13:47.749146+00:00",
+        "last_seen": "2026-11-20T09:22:25.715266+00:00",
+        "detections": 4,
+        "tracker_status": "updated_existing"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price established a low near 1725, rallied to approximately 1760, and is currently trading around 1752.73. The prior downtrend structure appears to have been broken by the reclaimed swing high, though the latest candle is still forming and no sustained breakout is confirmed.",
+    "limitations": [
+      "15m timeframe noise may produce false structure breaks",
+      "Latest candle may still be forming and could alter pattern validity",
+      "Key levels are visual estimates from swing points",
+      "Pattern confirmations require close confirmation and higher timeframe alignment"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.7588945457869939,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "patterns_considered": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1725.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1725.0
+        },
+        "confidence": 70,
+        "evidence": "Prior market structure was bearish with lower highs and lower lows. Price formed a low near 1725 and impulsively rallied to reclaim the approximately 1760 swing high, indicating a potential structural shift from bearish to bullish.",
+        "pattern_id": "5e7ff96f-b32c-4afc-b861-6fd044474bc4",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:37.509255+00:00",
+        "last_seen": "2026-11-20T09:22:25.715266+00:00",
+        "detections": 12,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1720.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1715.0
+        },
+        "confidence": 65,
+        "evidence": "Two distinct swing lows visible near 1730 and 1720 with an intervening rally; price currently retesting the neckline resistance zone around 1750-1760.",
+        "pattern_id": "9f785a56-f2dc-4bb8-b2b3-399b31659ab3",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:37.509255+00:00",
+        "last_seen": "2026-11-20T09:21:26.903782+00:00",
+        "detections": 8,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1745.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1740.0
+        },
+        "confidence": 55,
+        "evidence": "A sharp impulsive rally occurred from approximately 1725 to 1760. Price is currently in early consolidation near the top of that move, which could form a bullish flag.",
+        "pattern_id": "aefcb3b5-0a91-4d7d-923a-5456a6b81d9a",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:37.509255+00:00",
+        "last_seen": "2026-11-20T09:22:25.715266+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1760.0,
+          "level_low": 1725.0,
+          "trigger_level": 1760.0,
+          "invalidation_level": 1725.0
+        },
+        "confidence": 60,
+        "evidence": "A left shoulder area is visible near 1740, followed by a lower head near 1725. The subsequent rally to approximately 1760 suggests the right shoulder formation may be initiating as price pulls back from the highs.",
+        "pattern_id": "b718e9dc-5ed7-4d1b-b65c-e06188e87a78",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:13:47.749146+00:00",
+        "last_seen": "2026-11-20T09:22:25.715266+00:00",
+        "detections": 4,
+        "tracker_status": "updated_existing"
+      }
+    ]
+  }
+}

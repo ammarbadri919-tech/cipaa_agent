@@ -1,0 +1,441 @@
+{
+  "symbol": "XRP/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T12:56:48.048483+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T12:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "XRP/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T12:55:37+05:30",
+    "last_price": 0.9416,
+    "candle_timestamp": 1795418100000,
+    "open": 0.9423,
+    "high": 0.9435,
+    "low": 0.9414,
+    "close": 0.9416,
+    "volume": 472650.8,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.938,
+          "trigger_level": 0.946,
+          "invalidation_level": 0.935
+        },
+        "confidence": 70,
+        "evidence": "Sharp impulsive rally from approximately 0.915 to 0.945 followed by consolidation in a narrow range near the top, forming a potential flag pattern.",
+        "missing_conditions": "Breakout above flag resistance around 0.945-0.947 required to confirm continuation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 55,
+        "evidence": "Initial peak near 0.947 followed by pullback to approximately 0.938. Price is currently in the resistance zone and may be forming a second peak.",
+        "missing_conditions": "Second peak formation and subsequent break below neckline support around 0.938 required to confirm reversal."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish structure with higher highs and higher lows. Recent rejection at 0.947 and failure to hold above 0.945 indicates potential structural shift.",
+        "missing_conditions": "Confirmed break of structure below the most recent swing low (~0.938) required to validate CHoCH."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.938,
+          "trigger_level": 0.946,
+          "invalidation_level": 0.935
+        },
+        "confidence": 70,
+        "evidence": "Sharp impulsive rally from approximately 0.915 to 0.945 followed by consolidation in a narrow range near the top, forming a potential flag pattern.",
+        "missing_conditions": "Breakout above flag resistance around 0.945-0.947 required to confirm continuation.",
+        "pattern_id": "5b5175d1-a514-4eca-8a6e-63498ba42005",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.438067+00:00",
+        "last_seen": "2026-11-23T07:26:48.043719+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 55,
+        "evidence": "Initial peak near 0.947 followed by pullback to approximately 0.938. Price is currently in the resistance zone and may be forming a second peak.",
+        "missing_conditions": "Second peak formation and subsequent break below neckline support around 0.938 required to confirm reversal.",
+        "pattern_id": "fbcebb3f-4a20-4cb0-ab5e-ce8470b9c2f0",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.438067+00:00",
+        "last_seen": "2026-11-23T07:26:48.043719+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.94,
+          "trigger_level": 0.945,
+          "invalidation_level": 0.935
+        },
+        "confidence": 60,
+        "evidence": "Price action compressing near the top with lower highs and higher lows forming converging boundaries.",
+        "missing_conditions": "Clear breakout above 0.945 or below 0.940 to determine direction.",
+        "pattern_id": "62264624-6ca7-4eae-b133-a796f62a61f7",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.438067+00:00",
+        "last_seen": "2026-11-23T07:18:34.438067+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 0.946,
+          "level_low": 0.918,
+          "trigger_level": 0.942,
+          "invalidation_level": 0.938
+        },
+        "confidence": 75,
+        "evidence": "Price broke above previous swing high resistance around 0.942 after sweeping liquidity near 0.918, confirming bullish structure shift.",
+        "missing_conditions": "Retest of broken structure as support not yet completed.",
+        "pattern_id": "66f81f8d-d223-4285-96a4-e22acd296561",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:21:05.479787+00:00",
+        "last_seen": "2026-11-23T07:21:05.479787+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.915,
+          "trigger_level": 0.93,
+          "invalidation_level": 0.915
+        },
+        "confidence": 80,
+        "evidence": "Market structure shifted from bearish/sideways to bullish with impulsive break above 0.93 resistance and higher highs established near 0.945",
+        "missing_conditions": "None; structural confirmation is visible",
+        "pattern_id": "e955922b-7df8-4773-9756-1bbf842dbace",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:24:27.945583+00:00",
+        "last_seen": "2026-11-23T07:24:27.945583+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish structure with higher highs and higher lows. Recent rejection at 0.947 and failure to hold above 0.945 indicates potential structural shift.",
+        "missing_conditions": "Confirmed break of structure below the most recent swing low (~0.938) required to validate CHoCH.",
+        "pattern_id": "44897c52-b3f9-4f4f-a0dc-5384a94ee825",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:26:48.043719+00:00",
+        "last_seen": "2026-11-23T07:26:48.043719+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Strong upward impulse followed by consolidation at resistance near 0.945. Potential flag continuation or double top reversal setup developing at the top of the move.",
+    "limitations": [
+      "Current candle may still be forming.",
+      "15m timeframe noise may obscure pattern clarity.",
+      "Patterns are not yet confirmed; breakout or breakdown required.",
+      "Volume profile not clearly conclusive from visual inspection alone."
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "XRP/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.9791780155525365,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.938,
+          "trigger_level": 0.946,
+          "invalidation_level": 0.935
+        },
+        "confidence": 70,
+        "evidence": "Sharp impulsive rally from approximately 0.915 to 0.945 followed by consolidation in a narrow range near the top, forming a potential flag pattern.",
+        "missing_conditions": "Breakout above flag resistance around 0.945-0.947 required to confirm continuation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 55,
+        "evidence": "Initial peak near 0.947 followed by pullback to approximately 0.938. Price is currently in the resistance zone and may be forming a second peak.",
+        "missing_conditions": "Second peak formation and subsequent break below neckline support around 0.938 required to confirm reversal."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish structure with higher highs and higher lows. Recent rejection at 0.947 and failure to hold above 0.945 indicates potential structural shift.",
+        "missing_conditions": "Confirmed break of structure below the most recent swing low (~0.938) required to validate CHoCH."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.938,
+          "trigger_level": 0.946,
+          "invalidation_level": 0.935
+        },
+        "confidence": 70,
+        "evidence": "Sharp impulsive rally from approximately 0.915 to 0.945 followed by consolidation in a narrow range near the top, forming a potential flag pattern.",
+        "missing_conditions": "Breakout above flag resistance around 0.945-0.947 required to confirm continuation.",
+        "pattern_id": "5b5175d1-a514-4eca-8a6e-63498ba42005",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.438067+00:00",
+        "last_seen": "2026-11-23T07:26:48.043719+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 55,
+        "evidence": "Initial peak near 0.947 followed by pullback to approximately 0.938. Price is currently in the resistance zone and may be forming a second peak.",
+        "missing_conditions": "Second peak formation and subsequent break below neckline support around 0.938 required to confirm reversal.",
+        "pattern_id": "fbcebb3f-4a20-4cb0-ab5e-ce8470b9c2f0",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.438067+00:00",
+        "last_seen": "2026-11-23T07:26:48.043719+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.94,
+          "trigger_level": 0.945,
+          "invalidation_level": 0.935
+        },
+        "confidence": 60,
+        "evidence": "Price action compressing near the top with lower highs and higher lows forming converging boundaries.",
+        "missing_conditions": "Clear breakout above 0.945 or below 0.940 to determine direction.",
+        "pattern_id": "62264624-6ca7-4eae-b133-a796f62a61f7",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.438067+00:00",
+        "last_seen": "2026-11-23T07:18:34.438067+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 0.946,
+          "level_low": 0.918,
+          "trigger_level": 0.942,
+          "invalidation_level": 0.938
+        },
+        "confidence": 75,
+        "evidence": "Price broke above previous swing high resistance around 0.942 after sweeping liquidity near 0.918, confirming bullish structure shift.",
+        "missing_conditions": "Retest of broken structure as support not yet completed.",
+        "pattern_id": "66f81f8d-d223-4285-96a4-e22acd296561",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:21:05.479787+00:00",
+        "last_seen": "2026-11-23T07:21:05.479787+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 0.945,
+          "level_low": 0.915,
+          "trigger_level": 0.93,
+          "invalidation_level": 0.915
+        },
+        "confidence": 80,
+        "evidence": "Market structure shifted from bearish/sideways to bullish with impulsive break above 0.93 resistance and higher highs established near 0.945",
+        "missing_conditions": "None; structural confirmation is visible",
+        "pattern_id": "e955922b-7df8-4773-9756-1bbf842dbace",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:24:27.945583+00:00",
+        "last_seen": "2026-11-23T07:24:27.945583+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 0.947,
+          "level_low": 0.938,
+          "trigger_level": 0.937,
+          "invalidation_level": 0.948
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish structure with higher highs and higher lows. Recent rejection at 0.947 and failure to hold above 0.945 indicates potential structural shift.",
+        "missing_conditions": "Confirmed break of structure below the most recent swing low (~0.938) required to validate CHoCH.",
+        "pattern_id": "44897c52-b3f9-4f4f-a0dc-5384a94ee825",
+        "symbol": "XRP/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:26:48.043719+00:00",
+        "last_seen": "2026-11-23T07:26:48.043719+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

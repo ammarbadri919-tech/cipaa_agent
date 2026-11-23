@@ -1,0 +1,310 @@
+{
+  "symbol": "SOL/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T12:51:52.233680+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T12:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "SOL/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T12:51:15+05:30",
+    "last_price": 72.08,
+    "candle_timestamp": 1795418100000,
+    "open": 72.27,
+    "high": 72.28,
+    "low": 72.06,
+    "close": 72.08,
+    "volume": 13057.154,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 70.5,
+          "trigger_level": 71.5,
+          "invalidation_level": 70.5
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 71.0-71.5 with strong bullish impulse candles, shifting market structure from ranging to bullish.",
+        "missing_conditions": "Retest of broken resistance as support to validate the BOS and prevent a false breakout."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 71.5,
+          "trigger_level": 72.2,
+          "invalidation_level": 71.0
+        },
+        "confidence": 60,
+        "evidence": "Strong upward impulse followed by tight price consolidation near the highs, suggesting early formation of a bullish flag.",
+        "missing_conditions": "Clear parallel downward-sloping channel boundaries and a decisive breakout above flag resistance."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 70.5,
+          "trigger_level": 71.5,
+          "invalidation_level": 70.5
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 71.0-71.5 with strong bullish impulse candles, shifting market structure from ranging to bullish.",
+        "missing_conditions": "Retest of broken resistance as support to validate the BOS and prevent a false breakout.",
+        "pattern_id": "8258a37b-15bb-4896-9f70-787107ddfcbf",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:06.548088+00:00",
+        "last_seen": "2026-11-23T07:21:52.221665+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 71.5,
+          "trigger_level": 72.2,
+          "invalidation_level": 71.0
+        },
+        "confidence": 60,
+        "evidence": "Strong upward impulse followed by tight price consolidation near the highs, suggesting early formation of a bullish flag.",
+        "missing_conditions": "Clear parallel downward-sloping channel boundaries and a decisive breakout above flag resistance.",
+        "pattern_id": "3acbf6c5-c8c8-4455-a57f-3aefd5e04e1c",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:06.548088+00:00",
+        "last_seen": "2026-11-23T07:21:52.221665+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 70.5,
+          "level_low": 70.0,
+          "trigger_level": 70.25,
+          "invalidation_level": 69.75
+        },
+        "confidence": 70,
+        "evidence": "Price dipped to the ~70.0 level, sweeping prior equal lows, before reversing sharply upward with strong volume into the breakout",
+        "missing_conditions": "None required; sweep and reversal are visible",
+        "pattern_id": "b70756dc-fbbf-42a6-b120-d0342407bfb3",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:06.548088+00:00",
+        "last_seen": "2026-11-23T07:18:06.548088+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 71.0,
+          "level_low": 70.0,
+          "trigger_level": 71.1,
+          "invalidation_level": 69.8
+        },
+        "confidence": 70,
+        "evidence": "Two distinct lows near 70.0 separated by a rally to approximately 71.0, followed by a breakout above the neckline.",
+        "missing_conditions": "None for pattern identification; awaiting potential retest of breakout level.",
+        "pattern_id": "a76d2334-436b-4c02-8499-ddf284281a7b",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:20:01.810231+00:00",
+        "last_seen": "2026-11-23T07:20:01.810231+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "SOL/USDT broke out of a multi-hour consolidation range between 70.0 and 71.0 with strong bullish momentum, currently trading near 72.08. Recent price action shows higher highs and a shift to bullish structure.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact SMC levels (FVG, Order Block) cannot be precisely determined from image alone",
+      "Flag pattern is early and may not develop"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "SOL/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.7219542311234056,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 70.5,
+          "trigger_level": 71.5,
+          "invalidation_level": 70.5
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 71.0-71.5 with strong bullish impulse candles, shifting market structure from ranging to bullish.",
+        "missing_conditions": "Retest of broken resistance as support to validate the BOS and prevent a false breakout."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 71.5,
+          "trigger_level": 72.2,
+          "invalidation_level": 71.0
+        },
+        "confidence": 60,
+        "evidence": "Strong upward impulse followed by tight price consolidation near the highs, suggesting early formation of a bullish flag.",
+        "missing_conditions": "Clear parallel downward-sloping channel boundaries and a decisive breakout above flag resistance."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 70.5,
+          "trigger_level": 71.5,
+          "invalidation_level": 70.5
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 71.0-71.5 with strong bullish impulse candles, shifting market structure from ranging to bullish.",
+        "missing_conditions": "Retest of broken resistance as support to validate the BOS and prevent a false breakout.",
+        "pattern_id": "8258a37b-15bb-4896-9f70-787107ddfcbf",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:06.548088+00:00",
+        "last_seen": "2026-11-23T07:21:52.221665+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 72.5,
+          "level_low": 71.5,
+          "trigger_level": 72.2,
+          "invalidation_level": 71.0
+        },
+        "confidence": 60,
+        "evidence": "Strong upward impulse followed by tight price consolidation near the highs, suggesting early formation of a bullish flag.",
+        "missing_conditions": "Clear parallel downward-sloping channel boundaries and a decisive breakout above flag resistance.",
+        "pattern_id": "3acbf6c5-c8c8-4455-a57f-3aefd5e04e1c",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:06.548088+00:00",
+        "last_seen": "2026-11-23T07:21:52.221665+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 70.5,
+          "level_low": 70.0,
+          "trigger_level": 70.25,
+          "invalidation_level": 69.75
+        },
+        "confidence": 70,
+        "evidence": "Price dipped to the ~70.0 level, sweeping prior equal lows, before reversing sharply upward with strong volume into the breakout",
+        "missing_conditions": "None required; sweep and reversal are visible",
+        "pattern_id": "b70756dc-fbbf-42a6-b120-d0342407bfb3",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:06.548088+00:00",
+        "last_seen": "2026-11-23T07:18:06.548088+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 71.0,
+          "level_low": 70.0,
+          "trigger_level": 71.1,
+          "invalidation_level": 69.8
+        },
+        "confidence": 70,
+        "evidence": "Two distinct lows near 70.0 separated by a rally to approximately 71.0, followed by a breakout above the neckline.",
+        "missing_conditions": "None for pattern identification; awaiting potential retest of breakout level.",
+        "pattern_id": "a76d2334-436b-4c02-8499-ddf284281a7b",
+        "symbol": "SOL/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:20:01.810231+00:00",
+        "last_seen": "2026-11-23T07:20:01.810231+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

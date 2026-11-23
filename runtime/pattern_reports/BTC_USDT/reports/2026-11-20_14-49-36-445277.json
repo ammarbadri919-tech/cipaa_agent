@@ -1,0 +1,215 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-20T14:49:35.346059+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-20T14:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-20T14:48:46+05:30",
+    "last_price": 61651.09,
+    "candle_timestamp": 1795166100000,
+    "open": 61775.89,
+    "high": 61800.04,
+    "low": 61635.81,
+    "close": 61651.09,
+    "volume": 31.40009,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62300.0,
+          "level_low": 61500.0,
+          "trigger_level": 62300.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 65,
+        "evidence": "Price has tested the ~61700 support area multiple times, forming two distinct lows around 61500-61800. Current price is retesting this zone near 61651.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:19:35.344629+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61700.0,
+          "trigger_level": 61600.0,
+          "invalidation_level": 62500.0
+        },
+        "confidence": 60,
+        "evidence": "Visible series of lower highs (~62500, ~62300, ~62100) with price consolidating near horizontal support at ~61700.",
+        "pattern_id": "cf6f1a80-b724-4cb8-ba67-1a70a67a9396",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:42.759466+00:00",
+        "last_seen": "2026-11-20T09:19:35.344629+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62300.0,
+          "level_low": 61500.0,
+          "trigger_level": 61650.0,
+          "invalidation_level": 62300.0
+        },
+        "confidence": 70,
+        "evidence": "Market structure shifted from bullish to bearish after rejection near 64000. Recent price action shows lower highs and breakdown below prior swing lows.",
+        "pattern_id": "38caf874-889a-40e3-84ac-7c1b5c17a62e",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:13:51.202383+00:00",
+        "last_seen": "2026-11-20T09:19:35.344629+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61600.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 61500.0
+        },
+        "confidence": 60,
+        "evidence": "Converging price action with lower highs and higher lows forming a contracting range after the decline from 64000",
+        "pattern_id": "d902fdee-cfcc-4bf6-bb1e-f6881c150590",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:17:43.540773+00:00",
+        "last_seen": "2026-11-20T09:17:43.540773+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price is consolidating near key support after a decline from 64000. Multiple tests of 61700 area suggest potential double bottom, while lower highs suggest descending triangle or bearish continuation.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle still forming",
+      "No volume confirmation visible",
+      "Key levels are approximate"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.6418758125047043,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "patterns_considered": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62300.0,
+          "level_low": 61500.0,
+          "trigger_level": 62300.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 65,
+        "evidence": "Price has tested the ~61700 support area multiple times, forming two distinct lows around 61500-61800. Current price is retesting this zone near 61651.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:19:35.344629+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61700.0,
+          "trigger_level": 61600.0,
+          "invalidation_level": 62500.0
+        },
+        "confidence": 60,
+        "evidence": "Visible series of lower highs (~62500, ~62300, ~62100) with price consolidating near horizontal support at ~61700.",
+        "pattern_id": "cf6f1a80-b724-4cb8-ba67-1a70a67a9396",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:42.759466+00:00",
+        "last_seen": "2026-11-20T09:19:35.344629+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62300.0,
+          "level_low": 61500.0,
+          "trigger_level": 61650.0,
+          "invalidation_level": 62300.0
+        },
+        "confidence": 70,
+        "evidence": "Market structure shifted from bullish to bearish after rejection near 64000. Recent price action shows lower highs and breakdown below prior swing lows.",
+        "pattern_id": "38caf874-889a-40e3-84ac-7c1b5c17a62e",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:13:51.202383+00:00",
+        "last_seen": "2026-11-20T09:19:35.344629+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61600.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 61500.0
+        },
+        "confidence": 60,
+        "evidence": "Converging price action with lower highs and higher lows forming a contracting range after the decline from 64000",
+        "pattern_id": "d902fdee-cfcc-4bf6-bb1e-f6881c150590",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:17:43.540773+00:00",
+        "last_seen": "2026-11-20T09:17:43.540773+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

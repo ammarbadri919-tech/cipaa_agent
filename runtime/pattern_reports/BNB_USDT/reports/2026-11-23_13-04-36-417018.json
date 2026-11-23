@@ -1,0 +1,420 @@
+{
+  "symbol": "BNB/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T13:04:34.946607+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T13:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BNB/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T13:03:15+05:30",
+    "last_price": 556.78,
+    "candle_timestamp": 1795419000000,
+    "open": 557.2,
+    "high": 557.36,
+    "low": 556.78,
+    "close": 556.78,
+    "volume": 230.521,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 563.0,
+          "level_low": 554.0,
+          "trigger_level": 554.0,
+          "invalidation_level": 563.0
+        },
+        "confidence": 65,
+        "evidence": "Two swing highs visible near the 562-563 area separated by a pullback to approximately 554. Price is currently retreating from the second high at 556.78.",
+        "missing_conditions": "Price has not yet broken below the neckline support (~554) to confirm the reversal. The right top may still be forming."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 560.0,
+          "level_low": 552.0,
+          "trigger_level": 555.0,
+          "invalidation_level": 550.0
+        },
+        "confidence": 82,
+        "evidence": "Sharp wick down to approximately 552 around 08:00 swept sell-side liquidity below recent swing lows, followed by a strong bullish reversal reclaiming the 555 area with increased volume.",
+        "missing_conditions": "None required for sweep identification; follow-through above 560 would confirm bullish continuation.",
+        "pattern_id": "dbda8d5f-462a-4094-aed1-b6ad7bd5773b",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:25:54.640928+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 563.0,
+          "level_low": 554.0,
+          "trigger_level": 554.0,
+          "invalidation_level": 563.0
+        },
+        "confidence": 65,
+        "evidence": "Two swing highs visible near the 562-563 area separated by a pullback to approximately 554. Price is currently retreating from the second high at 556.78.",
+        "missing_conditions": "Price has not yet broken below the neckline support (~554) to confirm the reversal. The right top may still be forming.",
+        "pattern_id": "7aa00d57-9e0f-45c9-b279-475c55173947",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:34:34.939462+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 561.0,
+          "invalidation_level": 552.0
+        },
+        "confidence": 55,
+        "evidence": "Recent price action shows lower highs and higher lows, indicating compression between roughly 555 and 561.",
+        "missing_conditions": "Clear convergence of trendlines and a directional breakout from the triangle boundaries.",
+        "pattern_id": "19b9fd0b-a475-4245-92eb-63a2864cc34c",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:23:49.685335+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 558.0,
+          "level_low": 552.0,
+          "trigger_level": 557.0,
+          "invalidation_level": 552.0
+        },
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish breakdown to bullish as price reclaimed key levels after the 08:00 liquidity sweep, creating a higher high relative to the drop.",
+        "missing_conditions": "Sustained close above 560 to fully confirm bullish CHoCH and invalidate bearish count.",
+        "pattern_id": "5884bc06-2913-4c14-83a3-1827a5f47b3d",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:09.098963+00:00",
+        "last_seen": "2026-11-23T07:25:54.640928+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 560.0,
+          "level_low": 555.0,
+          "trigger_level": 560.0,
+          "invalidation_level": 552.0
+        },
+        "confidence": 68,
+        "evidence": "Strong impulsive move from 552 to 558 followed by tight consolidation near 557-558, forming a potential bullish flag structure.",
+        "missing_conditions": "Clear breakout above the 560 resistance area to confirm the flag continuation.",
+        "pattern_id": "d970d40b-1b27-47b6-ab28-927d4b4ed0ed",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:25:54.640928+00:00",
+        "last_seen": "2026-11-23T07:25:54.640928+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 562.5,
+          "level_low": 553.5,
+          "trigger_level": 553.5,
+          "invalidation_level": 562.5
+        },
+        "confidence": 55,
+        "evidence": "Price has established a local high near 562-563 and is showing bearish rejection. A break below the recent swing low around 553-554 would indicate a shift from bullish to bearish market structure.",
+        "missing_conditions": "Confirmation requires a break of structure below the most recent higher low.",
+        "pattern_id": "d563a897-a7a6-4298-b3f3-a86ad79ec6b8",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:30:42.726313+00:00",
+        "last_seen": "2026-11-23T07:33:14.814815+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 558.0,
+          "level_low": 553.0,
+          "trigger_level": 553.0,
+          "invalidation_level": 558.0
+        },
+        "confidence": 56,
+        "evidence": "Sharp decline from approximately 562 to 553 followed by a tight upward drift/consolidation between 553 and 558.",
+        "missing_conditions": "Break below flag support at approximately 553 to confirm continuation to the downside.",
+        "pattern_id": "9f2a9401-8f91-4c08-89ae-beae7af1d35e",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:32:06.514334+00:00",
+        "last_seen": "2026-11-23T07:32:06.514334+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price action shows resistance near 562-563 tested twice with an intervening low around 554. Current price is below the recent highs but above the intervening low.",
+    "limitations": [
+      "Pattern requires a break below neckline for confirmation",
+      "Current candle may still be forming",
+      "Exact swing points are approximate based on chart resolution"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BNB/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.9832853764970595,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 563.0,
+          "level_low": 554.0,
+          "trigger_level": 554.0,
+          "invalidation_level": 563.0
+        },
+        "confidence": 65,
+        "evidence": "Two swing highs visible near the 562-563 area separated by a pullback to approximately 554. Price is currently retreating from the second high at 556.78.",
+        "missing_conditions": "Price has not yet broken below the neckline support (~554) to confirm the reversal. The right top may still be forming."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 560.0,
+          "level_low": 552.0,
+          "trigger_level": 555.0,
+          "invalidation_level": 550.0
+        },
+        "confidence": 82,
+        "evidence": "Sharp wick down to approximately 552 around 08:00 swept sell-side liquidity below recent swing lows, followed by a strong bullish reversal reclaiming the 555 area with increased volume.",
+        "missing_conditions": "None required for sweep identification; follow-through above 560 would confirm bullish continuation.",
+        "pattern_id": "dbda8d5f-462a-4094-aed1-b6ad7bd5773b",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:25:54.640928+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 563.0,
+          "level_low": 554.0,
+          "trigger_level": 554.0,
+          "invalidation_level": 563.0
+        },
+        "confidence": 65,
+        "evidence": "Two swing highs visible near the 562-563 area separated by a pullback to approximately 554. Price is currently retreating from the second high at 556.78.",
+        "missing_conditions": "Price has not yet broken below the neckline support (~554) to confirm the reversal. The right top may still be forming.",
+        "pattern_id": "7aa00d57-9e0f-45c9-b279-475c55173947",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:34:34.939462+00:00",
+        "detections": 9,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 561.0,
+          "invalidation_level": 552.0
+        },
+        "confidence": 55,
+        "evidence": "Recent price action shows lower highs and higher lows, indicating compression between roughly 555 and 561.",
+        "missing_conditions": "Clear convergence of trendlines and a directional breakout from the triangle boundaries.",
+        "pattern_id": "19b9fd0b-a475-4245-92eb-63a2864cc34c",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:23:49.685335+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 558.0,
+          "level_low": 552.0,
+          "trigger_level": 557.0,
+          "invalidation_level": 552.0
+        },
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish breakdown to bullish as price reclaimed key levels after the 08:00 liquidity sweep, creating a higher high relative to the drop.",
+        "missing_conditions": "Sustained close above 560 to fully confirm bullish CHoCH and invalidate bearish count.",
+        "pattern_id": "5884bc06-2913-4c14-83a3-1827a5f47b3d",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:22:09.098963+00:00",
+        "last_seen": "2026-11-23T07:25:54.640928+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 560.0,
+          "level_low": 555.0,
+          "trigger_level": 560.0,
+          "invalidation_level": 552.0
+        },
+        "confidence": 68,
+        "evidence": "Strong impulsive move from 552 to 558 followed by tight consolidation near 557-558, forming a potential bullish flag structure.",
+        "missing_conditions": "Clear breakout above the 560 resistance area to confirm the flag continuation.",
+        "pattern_id": "d970d40b-1b27-47b6-ab28-927d4b4ed0ed",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:25:54.640928+00:00",
+        "last_seen": "2026-11-23T07:25:54.640928+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 562.5,
+          "level_low": 553.5,
+          "trigger_level": 553.5,
+          "invalidation_level": 562.5
+        },
+        "confidence": 55,
+        "evidence": "Price has established a local high near 562-563 and is showing bearish rejection. A break below the recent swing low around 553-554 would indicate a shift from bullish to bearish market structure.",
+        "missing_conditions": "Confirmation requires a break of structure below the most recent higher low.",
+        "pattern_id": "d563a897-a7a6-4298-b3f3-a86ad79ec6b8",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:30:42.726313+00:00",
+        "last_seen": "2026-11-23T07:33:14.814815+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 558.0,
+          "level_low": 553.0,
+          "trigger_level": 553.0,
+          "invalidation_level": 558.0
+        },
+        "confidence": 56,
+        "evidence": "Sharp decline from approximately 562 to 553 followed by a tight upward drift/consolidation between 553 and 558.",
+        "missing_conditions": "Break below flag support at approximately 553 to confirm continuation to the downside.",
+        "pattern_id": "9f2a9401-8f91-4c08-89ae-beae7af1d35e",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:32:06.514334+00:00",
+        "last_seen": "2026-11-23T07:32:06.514334+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

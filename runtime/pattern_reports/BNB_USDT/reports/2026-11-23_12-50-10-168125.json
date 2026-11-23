@@ -1,0 +1,296 @@
+{
+  "symbol": "BNB/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T12:50:08.886793+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T12:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BNB/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T12:49:14+05:30",
+    "last_price": 557.89,
+    "candle_timestamp": 1795418100000,
+    "open": 558.17,
+    "high": 558.3,
+    "low": 557.51,
+    "close": 557.89,
+    "volume": 511.444,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 560.5,
+          "invalidation_level": 554.5
+        },
+        "confidence": 55,
+        "evidence": "Price consolidating in a narrowing range between approximately 555 support and 561 resistance with multiple touches on both boundaries",
+        "missing_conditions": "Decisive breakout above 561 or below 555 to confirm breakout direction"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 554.5,
+          "invalidation_level": 562.0
+        },
+        "confidence": 50,
+        "evidence": "Price has tested the 560-561 area multiple times and is currently pulling back, suggesting potential double top formation",
+        "missing_conditions": "Confirmed breakdown below neckline support around 555"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 556.0,
+          "level_low": 552.0,
+          "trigger_level": 555.0,
+          "invalidation_level": 551.0
+        },
+        "confidence": 60,
+        "evidence": "Sharp downward spike around 08:00 below recent swing structure followed by strong bullish recovery, consistent with stop-hunt liquidity sweep",
+        "missing_conditions": "Sustained reclaim and close above the swept level to confirm bullish reversal"
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 556.0,
+          "level_low": 552.0,
+          "trigger_level": 555.0,
+          "invalidation_level": 551.0
+        },
+        "confidence": 60,
+        "evidence": "Sharp downward spike around 08:00 below recent swing structure followed by strong bullish recovery, consistent with stop-hunt liquidity sweep",
+        "missing_conditions": "Sustained reclaim and close above the swept level to confirm bullish reversal",
+        "pattern_id": "dbda8d5f-462a-4094-aed1-b6ad7bd5773b",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:20:08.879878+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 554.5,
+          "invalidation_level": 562.0
+        },
+        "confidence": 50,
+        "evidence": "Price has tested the 560-561 area multiple times and is currently pulling back, suggesting potential double top formation",
+        "missing_conditions": "Confirmed breakdown below neckline support around 555",
+        "pattern_id": "7aa00d57-9e0f-45c9-b279-475c55173947",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:20:08.879878+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 560.5,
+          "invalidation_level": 554.5
+        },
+        "confidence": 55,
+        "evidence": "Price consolidating in a narrowing range between approximately 555 support and 561 resistance with multiple touches on both boundaries",
+        "missing_conditions": "Decisive breakout above 561 or below 555 to confirm breakout direction",
+        "pattern_id": "19b9fd0b-a475-4245-92eb-63a2864cc34c",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:20:08.879878+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price is consolidating near the 555-561 range after a sharp V-shaped recovery around 08:00. Multiple rejections at 560 resistance and support near 555 suggest a developing symmetrical triangle or double top, while the recent wick down indicates a possible liquidity sweep.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly",
+      "Exact candle open/close values not precisely visible from image",
+      "Current candle may still be forming, affecting pattern completion assessment"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BNB/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.990617435417423,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 560.5,
+          "invalidation_level": 554.5
+        },
+        "confidence": 55,
+        "evidence": "Price consolidating in a narrowing range between approximately 555 support and 561 resistance with multiple touches on both boundaries",
+        "missing_conditions": "Decisive breakout above 561 or below 555 to confirm breakout direction"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 554.5,
+          "invalidation_level": 562.0
+        },
+        "confidence": 50,
+        "evidence": "Price has tested the 560-561 area multiple times and is currently pulling back, suggesting potential double top formation",
+        "missing_conditions": "Confirmed breakdown below neckline support around 555"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 556.0,
+          "level_low": 552.0,
+          "trigger_level": 555.0,
+          "invalidation_level": 551.0
+        },
+        "confidence": 60,
+        "evidence": "Sharp downward spike around 08:00 below recent swing structure followed by strong bullish recovery, consistent with stop-hunt liquidity sweep",
+        "missing_conditions": "Sustained reclaim and close above the swept level to confirm bullish reversal"
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMING",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 556.0,
+          "level_low": 552.0,
+          "trigger_level": 555.0,
+          "invalidation_level": 551.0
+        },
+        "confidence": 60,
+        "evidence": "Sharp downward spike around 08:00 below recent swing structure followed by strong bullish recovery, consistent with stop-hunt liquidity sweep",
+        "missing_conditions": "Sustained reclaim and close above the swept level to confirm bullish reversal",
+        "pattern_id": "dbda8d5f-462a-4094-aed1-b6ad7bd5773b",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:20:08.879878+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 554.5,
+          "invalidation_level": 562.0
+        },
+        "confidence": 50,
+        "evidence": "Price has tested the 560-561 area multiple times and is currently pulling back, suggesting potential double top formation",
+        "missing_conditions": "Confirmed breakdown below neckline support around 555",
+        "pattern_id": "7aa00d57-9e0f-45c9-b279-475c55173947",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:20:08.879878+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 561.0,
+          "level_low": 555.0,
+          "trigger_level": 560.5,
+          "invalidation_level": 554.5
+        },
+        "confidence": 55,
+        "evidence": "Price consolidating in a narrowing range between approximately 555 support and 561 resistance with multiple touches on both boundaries",
+        "missing_conditions": "Decisive breakout above 561 or below 555 to confirm breakout direction",
+        "pattern_id": "19b9fd0b-a475-4245-92eb-63a2864cc34c",
+        "symbol": "BNB/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:18:34.763557+00:00",
+        "last_seen": "2026-11-23T07:20:08.879878+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      }
+    ]
+  }
+}

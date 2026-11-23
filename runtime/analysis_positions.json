@@ -1,0 +1,39 @@
+{
+  "open_positions": {
+    "ETH/USDT": {
+      "symbol": "ETH/USDT",
+      "direction": "SHORT",
+      "entry_price": 1755.21,
+      "timeframe": "15m",
+      "opened_at": "2026-11-23T17:30:08.146686+00:00"
+    },
+    "BNB/USDT": {
+      "symbol": "BNB/USDT",
+      "direction": "SHORT",
+      "entry_price": 562.71,
+      "timeframe": "15m",
+      "opened_at": "2026-11-23T17:35:26.510586+00:00"
+    },
+    "XRP/USDT": {
+      "symbol": "XRP/USDT",
+      "direction": "SHORT",
+      "entry_price": 0.9654,
+      "timeframe": "15m",
+      "opened_at": "2026-11-23T17:37:15.474315+00:00"
+    },
+    "SOL/USDT": {
+      "symbol": "SOL/USDT",
+      "direction": "SHORT",
+      "entry_price": 73.87,
+      "timeframe": "15m",
+      "opened_at": "2026-11-23T17:38:31.548081+00:00"
+    },
+    "BTC/USDT": {
+      "symbol": "BTC/USDT",
+      "direction": "SHORT",
+      "entry_price": 61524.86,
+      "timeframe": "15m",
+      "opened_at": "2026-11-23T18:23:44.254065+00:00"
+    }
+  }
+}

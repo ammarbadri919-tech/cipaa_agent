@@ -1,0 +1,256 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-20T14:55:32.341352+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-20T14:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-20T14:54:53+05:30",
+    "last_price": 61805.31,
+    "candle_timestamp": 1795166100000,
+    "open": 61775.89,
+    "high": 61874.88,
+    "low": 61635.81,
+    "close": 61805.31,
+    "volume": 72.23815,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62400.0,
+          "level_low": 61500.0,
+          "trigger_level": 62400.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 68,
+        "evidence": "Two swing lows visible near 61500-61700 separated by a rally to approximately 62400. Price is currently hovering above the lows and approaching the neckline area.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:25:32.338496+00:00",
+        "detections": 15,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61500.0,
+          "trigger_level": 61500.0,
+          "invalidation_level": 62600.0
+        },
+        "confidence": 60,
+        "evidence": "Series of lower highs around 62500, 62300, 62200 with price repeatedly testing support near 61500-61700.",
+        "pattern_id": "cf6f1a80-b724-4cb8-ba67-1a70a67a9396",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:42.759466+00:00",
+        "last_seen": "2026-11-20T09:22:32.694909+00:00",
+        "detections": 6,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61500.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 55,
+        "evidence": "Market structure shows a higher low formed around 61600 after prior lower lows, with price attempting to reclaim bearish order flow.",
+        "pattern_id": "38caf874-889a-40e3-84ac-7c1b5c17a62e",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:13:51.202383+00:00",
+        "last_seen": "2026-11-20T09:25:32.338496+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61600.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 61500.0
+        },
+        "confidence": 60,
+        "evidence": "Recent price action shows converging lower highs and higher lows forming a contracting range between roughly 61600 and 62200.",
+        "pattern_id": "d902fdee-cfcc-4bf6-bb1e-f6881c150590",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:17:43.540773+00:00",
+        "last_seen": "2026-11-20T09:25:32.338496+00:00",
+        "detections": 4,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Order Block",
+        "type": "SMC",
+        "status": "DETECTED",
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 62200.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 62600.0
+        },
+        "confidence": 55,
+        "evidence": "Price rejected sharply at approximately 62500 after the bounce from the decline, leaving a potential bearish order block in the 62200-62500 zone.",
+        "pattern_id": "4d0fabd2-9777-4211-b590-22f020ee77ea",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:21:45.962479+00:00",
+        "last_seen": "2026-11-20T09:21:45.962479+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price is consolidating near support after a decline from 64000, forming potential double bottom and symmetrical triangle structures. No confirmed breakout yet.",
+    "limitations": [
+      "Current candle may still be forming",
+      "15m timeframe noise may invalidate intraday patterns",
+      "Volume confirmation not clearly visible"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.6760153953208762,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "patterns_considered": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62400.0,
+          "level_low": 61500.0,
+          "trigger_level": 62400.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 68,
+        "evidence": "Two swing lows visible near 61500-61700 separated by a rally to approximately 62400. Price is currently hovering above the lows and approaching the neckline area.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:25:32.338496+00:00",
+        "detections": 15,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61500.0,
+          "trigger_level": 61500.0,
+          "invalidation_level": 62600.0
+        },
+        "confidence": 60,
+        "evidence": "Series of lower highs around 62500, 62300, 62200 with price repeatedly testing support near 61500-61700.",
+        "pattern_id": "cf6f1a80-b724-4cb8-ba67-1a70a67a9396",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:42.759466+00:00",
+        "last_seen": "2026-11-20T09:22:32.694909+00:00",
+        "detections": 6,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61500.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 55,
+        "evidence": "Market structure shows a higher low formed around 61600 after prior lower lows, with price attempting to reclaim bearish order flow.",
+        "pattern_id": "38caf874-889a-40e3-84ac-7c1b5c17a62e",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:13:51.202383+00:00",
+        "last_seen": "2026-11-20T09:25:32.338496+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61600.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 61500.0
+        },
+        "confidence": 60,
+        "evidence": "Recent price action shows converging lower highs and higher lows forming a contracting range between roughly 61600 and 62200.",
+        "pattern_id": "d902fdee-cfcc-4bf6-bb1e-f6881c150590",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:17:43.540773+00:00",
+        "last_seen": "2026-11-20T09:25:32.338496+00:00",
+        "detections": 4,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Order Block",
+        "type": "SMC",
+        "status": "DETECTED",
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 62200.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 62600.0
+        },
+        "confidence": 55,
+        "evidence": "Price rejected sharply at approximately 62500 after the bounce from the decline, leaving a potential bearish order block in the 62200-62500 zone.",
+        "pattern_id": "4d0fabd2-9777-4211-b590-22f020ee77ea",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:21:45.962479+00:00",
+        "last_seen": "2026-11-20T09:21:45.962479+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-21T22:00:56.320501+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-21T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-21T22:00:06+05:30",
+    "last_price": 60039.09,
+    "candle_timestamp": 1795278600000,
+    "open": 60044.08,
+    "high": 60044.08,
+    "low": 60039.08,
+    "close": 60039.09,
+    "volume": 0.51852,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 56000.0,
+          "trigger_level": 59000.0,
+          "invalidation_level": 58000.0
+        },
+        "confidence": 85,
+        "evidence": "Price broke above prior swing high resistance near 59000 after establishing a higher low at 56000, shifting market structure from bearish to bullish.",
+        "missing_conditions": "Successful retest of broken structure as support to validate bullish continuation"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 59500.0,
+          "trigger_level": 60500.0,
+          "invalidation_level": 59000.0
+        },
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 58000 to 60800 followed by consolidation near highs around 60000-60500.",
+        "missing_conditions": "Breakout above flag resistance at 60500-60800 to confirm continuation"
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 56000.0,
+          "trigger_level": 59000.0,
+          "invalidation_level": 58000.0
+        },
+        "confidence": 85,
+        "evidence": "Price broke above prior swing high resistance near 59000 after establishing a higher low at 56000, shifting market structure from bearish to bullish.",
+        "missing_conditions": "Successful retest of broken structure as support to validate bullish continuation",
+        "pattern_id": "91eeacdc-c12a-4585-9261-8f6e3eb1b2ae",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:30:56.263038+00:00",
+        "last_seen": "2026-11-21T16:30:56.263038+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 59500.0,
+          "trigger_level": 60500.0,
+          "invalidation_level": 59000.0
+        },
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 58000 to 60800 followed by consolidation near highs around 60000-60500.",
+        "missing_conditions": "Breakout above flag resistance at 60500-60800 to confirm continuation",
+        "pattern_id": "9dfb2d1e-6369-4703-b976-88605885a1bc",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:30:56.263038+00:00",
+        "last_seen": "2026-11-21T16:30:56.263038+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price structure shifted from downtrend to uptrend with higher low at 56000 and breakout above 59000 resistance. Currently consolidating near recent highs at 60039.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact candle body relationships not clearly distinguishable",
+      "Volume confirmation not fully analyzable from image"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.6108211211249005,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "current_patterns_considered": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 56000.0,
+          "trigger_level": 59000.0,
+          "invalidation_level": 58000.0
+        },
+        "confidence": 85,
+        "evidence": "Price broke above prior swing high resistance near 59000 after establishing a higher low at 56000, shifting market structure from bearish to bullish.",
+        "missing_conditions": "Successful retest of broken structure as support to validate bullish continuation"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 59500.0,
+          "trigger_level": 60500.0,
+          "invalidation_level": 59000.0
+        },
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 58000 to 60800 followed by consolidation near highs around 60000-60500.",
+        "missing_conditions": "Breakout above flag resistance at 60500-60800 to confirm continuation"
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 56000.0,
+          "trigger_level": 59000.0,
+          "invalidation_level": 58000.0
+        },
+        "confidence": 85,
+        "evidence": "Price broke above prior swing high resistance near 59000 after establishing a higher low at 56000, shifting market structure from bearish to bullish.",
+        "missing_conditions": "Successful retest of broken structure as support to validate bullish continuation",
+        "pattern_id": "91eeacdc-c12a-4585-9261-8f6e3eb1b2ae",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:30:56.263038+00:00",
+        "last_seen": "2026-11-21T16:30:56.263038+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 60800.0,
+          "level_low": 59500.0,
+          "trigger_level": 60500.0,
+          "invalidation_level": 59000.0
+        },
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 58000 to 60800 followed by consolidation near highs around 60000-60500.",
+        "missing_conditions": "Breakout above flag resistance at 60500-60800 to confirm continuation",
+        "pattern_id": "9dfb2d1e-6369-4703-b976-88605885a1bc",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:30:56.263038+00:00",
+        "last_seen": "2026-11-21T16:30:56.263038+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

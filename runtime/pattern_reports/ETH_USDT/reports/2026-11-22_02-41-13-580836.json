@@ -1,0 +1,487 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-22T02:41:11.845387+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-22T02:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-22T02:40:25+05:30",
+    "last_price": 1687.63,
+    "candle_timestamp": 1795294800000,
+    "open": 1686.64,
+    "high": 1689.16,
+    "low": 1686.0,
+    "close": 1687.63,
+    "volume": 1257.206,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 65,
+        "evidence": "Strong impulse move from approximately 1560 to 1710 followed by tight sideways consolidation between 1675 and 1710 with contracting price swings.",
+        "missing_conditions": "Decisive breakout above 1710 to confirm continuation to the upside."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1700.0,
+          "level_low": 1680.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1675.0
+        },
+        "confidence": 55,
+        "evidence": "Recent candles show lower highs near 1700 and higher lows near 1680, forming converging trendlines in a narrowing range.",
+        "missing_conditions": "Clear breakout above 1700 or breakdown below 1680 with increased volume."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1715.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1720.0
+        },
+        "confidence": 50,
+        "evidence": "Price rejected near 1715-1725, pulled back to approximately 1675, and is retesting resistance near 1700 without exceeding the prior high.",
+        "missing_conditions": "Confirmed breakdown below the 1675 neckline to validate the reversal pattern."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 65,
+        "evidence": "Strong impulse move from approximately 1560 to 1710 followed by tight sideways consolidation between 1675 and 1710 with contracting price swings.",
+        "missing_conditions": "Decisive breakout above 1710 to confirm continuation to the upside.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T21:11:11.839830+00:00",
+        "detections": 40,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1715.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1720.0
+        },
+        "confidence": 50,
+        "evidence": "Price rejected near 1715-1725, pulled back to approximately 1675, and is retesting resistance near 1700 without exceeding the prior high.",
+        "missing_conditions": "Confirmed breakdown below the 1675 neckline to validate the reversal pattern.",
+        "pattern_id": "5dd3eff5-db63-4e82-9559-3278f7e615ca",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:54.148130+00:00",
+        "last_seen": "2026-11-21T21:11:11.839830+00:00",
+        "detections": 18,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1715.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1715.0
+        },
+        "confidence": 50,
+        "evidence": "Recent swing highs are lower after establishing bullish structure; failure at 1675 support would indicate bearish structure shift.",
+        "missing_conditions": "Confirmed break below recent swing low at approximately 1675.",
+        "pattern_id": "2413e4b8-53b6-4744-82e8-dfac55f921b1",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:35:33.540097+00:00",
+        "last_seen": "2026-11-21T21:09:00.601035+00:00",
+        "detections": 14,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1700.0,
+          "level_low": 1680.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1675.0
+        },
+        "confidence": 55,
+        "evidence": "Recent candles show lower highs near 1700 and higher lows near 1680, forming converging trendlines in a narrowing range.",
+        "missing_conditions": "Clear breakout above 1700 or breakdown below 1680 with increased volume.",
+        "pattern_id": "9e9b5cfd-116b-425b-a4fb-ce140d08f887",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:38:45.014570+00:00",
+        "last_seen": "2026-11-21T21:11:11.839830+00:00",
+        "detections": 23,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Doji",
+        "type": "CANDLESTICK",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1690.0,
+          "level_low": 1675.0,
+          "trigger_level": 1690.0,
+          "invalidation_level": 1675.0
+        },
+        "confidence": 60,
+        "evidence": "Latest candles show small bodies with upper and lower wicks around 1680-1690, indicating indecision at resistance.",
+        "missing_conditions": "Candle close to confirm doji formation; latest candle may still be forming.",
+        "pattern_id": "b7195789-fe21-4a73-9675-ce8ae99ae914",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T17:52:11.607948+00:00",
+        "last_seen": "2026-11-21T17:52:11.607948+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Falling Wedge",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 55,
+        "evidence": "Price forming lower highs from the 1710 peak and holding support around 1675-1680, suggesting potential converging trendlines.",
+        "missing_conditions": "Clear trendline convergence and decisive close above upper wedge boundary near 1700.",
+        "pattern_id": "df88557b-c6f4-4688-adb6-c5a74fb5990d",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T18:01:25.577100+00:00",
+        "last_seen": "2026-11-21T18:01:25.577100+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1700.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 55,
+        "evidence": "Sharp upward move from approximately 1550 to 1725 followed by a tight, slightly downward-sloping consolidation near the top of the move.",
+        "missing_conditions": "Confirmed breakdown below flag support at 1675 with increased selling pressure.",
+        "pattern_id": "0d4e713f-0369-4851-b71b-8da79873b4c6",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T20:34:34.368044+00:00",
+        "last_seen": "2026-11-21T20:34:34.368044+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "ETH/USDT 15m chart shows a strong rally from roughly 1560 to 1710 followed by consolidation around 1680-1700. Current price is approximately 1687.63. No breakout has occurred yet.",
+    "limitations": [
+      "The latest candle may still be forming, so pattern completion is uncertain.",
+      "Price levels are visual estimates from the chart and may not be exact.",
+      "Volume confirmation for breakouts is not clearly visible at this resolution."
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.9899138294172701,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 65,
+        "evidence": "Strong impulse move from approximately 1560 to 1710 followed by tight sideways consolidation between 1675 and 1710 with contracting price swings.",
+        "missing_conditions": "Decisive breakout above 1710 to confirm continuation to the upside."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1700.0,
+          "level_low": 1680.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1675.0
+        },
+        "confidence": 55,
+        "evidence": "Recent candles show lower highs near 1700 and higher lows near 1680, forming converging trendlines in a narrowing range.",
+        "missing_conditions": "Clear breakout above 1700 or breakdown below 1680 with increased volume."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1715.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1720.0
+        },
+        "confidence": 50,
+        "evidence": "Price rejected near 1715-1725, pulled back to approximately 1675, and is retesting resistance near 1700 without exceeding the prior high.",
+        "missing_conditions": "Confirmed breakdown below the 1675 neckline to validate the reversal pattern."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1670.0
+        },
+        "confidence": 65,
+        "evidence": "Strong impulse move from approximately 1560 to 1710 followed by tight sideways consolidation between 1675 and 1710 with contracting price swings.",
+        "missing_conditions": "Decisive breakout above 1710 to confirm continuation to the upside.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T21:11:11.839830+00:00",
+        "detections": 40,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1715.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1720.0
+        },
+        "confidence": 50,
+        "evidence": "Price rejected near 1715-1725, pulled back to approximately 1675, and is retesting resistance near 1700 without exceeding the prior high.",
+        "missing_conditions": "Confirmed breakdown below the 1675 neckline to validate the reversal pattern.",
+        "pattern_id": "5dd3eff5-db63-4e82-9559-3278f7e615ca",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:54.148130+00:00",
+        "last_seen": "2026-11-21T21:11:11.839830+00:00",
+        "detections": 18,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1715.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1715.0
+        },
+        "confidence": 50,
+        "evidence": "Recent swing highs are lower after establishing bullish structure; failure at 1675 support would indicate bearish structure shift.",
+        "missing_conditions": "Confirmed break below recent swing low at approximately 1675.",
+        "pattern_id": "2413e4b8-53b6-4744-82e8-dfac55f921b1",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:35:33.540097+00:00",
+        "last_seen": "2026-11-21T21:09:00.601035+00:00",
+        "detections": 14,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1700.0,
+          "level_low": 1680.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1675.0
+        },
+        "confidence": 55,
+        "evidence": "Recent candles show lower highs near 1700 and higher lows near 1680, forming converging trendlines in a narrowing range.",
+        "missing_conditions": "Clear breakout above 1700 or breakdown below 1680 with increased volume.",
+        "pattern_id": "9e9b5cfd-116b-425b-a4fb-ce140d08f887",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:38:45.014570+00:00",
+        "last_seen": "2026-11-21T21:11:11.839830+00:00",
+        "detections": 23,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Doji",
+        "type": "CANDLESTICK",
+        "direction": "NEUTRAL",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1690.0,
+          "level_low": 1675.0,
+          "trigger_level": 1690.0,
+          "invalidation_level": 1675.0
+        },
+        "confidence": 60,
+        "evidence": "Latest candles show small bodies with upper and lower wicks around 1680-1690, indicating indecision at resistance.",
+        "missing_conditions": "Candle close to confirm doji formation; latest candle may still be forming.",
+        "pattern_id": "b7195789-fe21-4a73-9675-ce8ae99ae914",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T17:52:11.607948+00:00",
+        "last_seen": "2026-11-21T17:52:11.607948+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Falling Wedge",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1700.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 55,
+        "evidence": "Price forming lower highs from the 1710 peak and holding support around 1675-1680, suggesting potential converging trendlines.",
+        "missing_conditions": "Clear trendline convergence and decisive close above upper wedge boundary near 1700.",
+        "pattern_id": "df88557b-c6f4-4688-adb6-c5a74fb5990d",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T18:01:25.577100+00:00",
+        "last_seen": "2026-11-21T18:01:25.577100+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1700.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1705.0
+        },
+        "confidence": 55,
+        "evidence": "Sharp upward move from approximately 1550 to 1725 followed by a tight, slightly downward-sloping consolidation near the top of the move.",
+        "missing_conditions": "Confirmed breakdown below flag support at 1675 with increased selling pressure.",
+        "pattern_id": "0d4e713f-0369-4851-b71b-8da79873b4c6",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T20:34:34.368044+00:00",
+        "last_seen": "2026-11-21T20:34:34.368044+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

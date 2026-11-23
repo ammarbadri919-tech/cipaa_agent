@@ -1,0 +1,354 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T21:11:01.551649+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T21:10:03+05:30",
+    "last_price": 3.67e-06,
+    "candle_timestamp": 1795447800000,
+    "open": 3.7e-06,
+    "high": 3.72e-06,
+    "low": 3.65e-06,
+    "close": 3.67e-06,
+    "volume": 181056430589.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.3e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 0.00000350 with a large impulsive candle and elevated volume, confirming a bullish break of structure.",
+        "missing_conditions": "None required for confirmation; monitoring for potential change of character back below broken structure."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.62e-06,
+          "trigger_level": 3.7e-06,
+          "invalidation_level": 3.58e-06
+        },
+        "confidence": 60,
+        "evidence": "Following the sharp upward impulse, price is consolidating in a tight range near the highs between roughly 0.00000362 and 0.00000372.",
+        "missing_conditions": "Breakout above flag upper boundary or breakdown below flag support not yet confirmed."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.4e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 80,
+        "evidence": "Price broke decisively above the prior range resistance near 0.0000035 with a large impulsive candle and elevated volume, shifting market structure bullish.",
+        "missing_conditions": "None required for BOS confirmation; awaiting follow-through to confirm sustained bullish structure.",
+        "pattern_id": "f2a7c0c2-e838-4057-b808-64acb34d69a2",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:31:46.874437+00:00",
+        "last_seen": "2026-11-23T15:31:46.874437+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.62e-06,
+          "trigger_level": 3.7e-06,
+          "invalidation_level": 3.58e-06
+        },
+        "confidence": 60,
+        "evidence": "Following the sharp upward impulse, price is consolidating in a tight range near the highs between roughly 0.00000362 and 0.00000372.",
+        "missing_conditions": "Breakout above flag upper boundary or breakdown below flag support not yet confirmed.",
+        "pattern_id": "d4f7ed5d-15fe-4c2d-ac5c-776634724e65",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:31:46.874437+00:00",
+        "last_seen": "2026-11-23T15:41:01.544079+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.3e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 0.00000350 with a large impulsive candle and elevated volume, confirming a bullish break of structure.",
+        "missing_conditions": "None required for confirmation; monitoring for potential change of character back below broken structure.",
+        "pattern_id": "e094e004-81cb-450f-8a26-2277aa7571f1",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:32:13.379690+00:00",
+        "last_seen": "2026-11-23T15:41:01.544079+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Fair Value Gap (FVG)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.68e-06,
+          "level_low": 3.58e-06,
+          "trigger_level": 3.58e-06,
+          "invalidation_level": 3.55e-06
+        },
+        "confidence": 78,
+        "evidence": "The large vertical impulse candle during the spike left a visible price imbalance between the prior candle's wick and the impulse body, creating an unfilled bullish FVG below current price.",
+        "missing_conditions": "Price has not yet returned to test or fill the FVG zone.",
+        "pattern_id": "bb44c6be-42cb-413a-bc10-e3509a360a5b",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:33:16.108498+00:00",
+        "last_seen": "2026-11-23T15:33:16.108498+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "PEPE/USDT shows a strong bullish impulse from a multi-hour range, breaking above 0.00000350 and reaching above 0.00000370 before pulling back to approximately 0.00000367. Volume spiked during the impulse. Price is currently consolidating near the top.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Key levels are visual estimates from chart gridlines",
+      "Intraday 15m structure can change rapidly"
+    ]
+  },
+  "enriched_market_context": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T21:10:03+05:30",
+    "last_price": 3.67e-06,
+    "candle_timestamp": 1795447800000,
+    "open": 3.7e-06,
+    "high": 3.72e-06,
+    "low": 3.65e-06,
+    "close": 3.67e-06,
+    "volume": 181056430589.0,
+    "candle_is_probably_closed": false,
+    "last_closed_candle": {
+      "open": 3.69e-06,
+      "high": 3.74e-06,
+      "low": 3.68e-06,
+      "close": 3.7e-06,
+      "volume": 133403606551.0
+    },
+    "relative_volume_20ma": 0.41,
+    "math_trigger_checks": [
+      {
+        "pattern": "Break of Structure (BOS)",
+        "direction": "LONG",
+        "formation_state": "CONFIRMED",
+        "closed_candle_breakout": true,
+        "live_price_beyond_trigger": true,
+        "invalidated_by_closed_candle": false,
+        "invalidated_by_live_price": false,
+        "confirmation_status": "CONFIRMED"
+      },
+      {
+        "pattern": "Bullish Flag",
+        "direction": "LONG",
+        "formation_state": "DEVELOPING",
+        "closed_candle_breakout": false,
+        "live_price_beyond_trigger": false,
+        "invalidated_by_closed_candle": false,
+        "invalidated_by_live_price": false,
+        "confirmation_status": "NOT_TRIGGERED"
+      }
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "decision": "ENTER",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.707256633043374,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.3e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 0.00000350 with a large impulsive candle and elevated volume, confirming a bullish break of structure.",
+        "missing_conditions": "None required for confirmation; monitoring for potential change of character back below broken structure."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.62e-06,
+          "trigger_level": 3.7e-06,
+          "invalidation_level": 3.58e-06
+        },
+        "confidence": 60,
+        "evidence": "Following the sharp upward impulse, price is consolidating in a tight range near the highs between roughly 0.00000362 and 0.00000372.",
+        "missing_conditions": "Breakout above flag upper boundary or breakdown below flag support not yet confirmed."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.4e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 80,
+        "evidence": "Price broke decisively above the prior range resistance near 0.0000035 with a large impulsive candle and elevated volume, shifting market structure bullish.",
+        "missing_conditions": "None required for BOS confirmation; awaiting follow-through to confirm sustained bullish structure.",
+        "pattern_id": "f2a7c0c2-e838-4057-b808-64acb34d69a2",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:31:46.874437+00:00",
+        "last_seen": "2026-11-23T15:31:46.874437+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.62e-06,
+          "trigger_level": 3.7e-06,
+          "invalidation_level": 3.58e-06
+        },
+        "confidence": 60,
+        "evidence": "Following the sharp upward impulse, price is consolidating in a tight range near the highs between roughly 0.00000362 and 0.00000372.",
+        "missing_conditions": "Breakout above flag upper boundary or breakdown below flag support not yet confirmed.",
+        "pattern_id": "d4f7ed5d-15fe-4c2d-ac5c-776634724e65",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:31:46.874437+00:00",
+        "last_seen": "2026-11-23T15:41:01.544079+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.72e-06,
+          "level_low": 3.3e-06,
+          "trigger_level": 3.5e-06,
+          "invalidation_level": 3.45e-06
+        },
+        "confidence": 85,
+        "evidence": "Price broke above the prior swing high around 0.00000350 with a large impulsive candle and elevated volume, confirming a bullish break of structure.",
+        "missing_conditions": "None required for confirmation; monitoring for potential change of character back below broken structure.",
+        "pattern_id": "e094e004-81cb-450f-8a26-2277aa7571f1",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:32:13.379690+00:00",
+        "last_seen": "2026-11-23T15:41:01.544079+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Fair Value Gap (FVG)",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "CONFIRMED",
+        "formation_start_time": null,
+        "formation_state": "CONFIRMED",
+        "key_levels": {
+          "level_high": 3.68e-06,
+          "level_low": 3.58e-06,
+          "trigger_level": 3.58e-06,
+          "invalidation_level": 3.55e-06
+        },
+        "confidence": 78,
+        "evidence": "The large vertical impulse candle during the spike left a visible price imbalance between the prior candle's wick and the impulse body, creating an unfilled bullish FVG below current price.",
+        "missing_conditions": "Price has not yet returned to test or fill the FVG zone.",
+        "pattern_id": "bb44c6be-42cb-413a-bc10-e3509a360a5b",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T15:33:16.108498+00:00",
+        "last_seen": "2026-11-23T15:33:16.108498+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

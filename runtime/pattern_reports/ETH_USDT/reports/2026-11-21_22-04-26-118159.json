@@ -1,0 +1,214 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-21T22:04:24.928534+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-21T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-21T22:03:17+05:30",
+    "last_price": 1684.75,
+    "candle_timestamp": 1795278600000,
+    "open": 1683.01,
+    "high": 1685.39,
+    "low": 1682.11,
+    "close": 1684.75,
+    "volume": 553.7814,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1670.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1575 to 1710 followed by downward-sloping consolidation near current price 1684.75.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710 to confirm bullish continuation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price reached local high near 1710 and is pulling back; potential second top formation if resistance is retested.",
+        "missing_conditions": "Second peak at or near 1710 followed by breakdown below neckline around 1675."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1670.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1575 to 1710 followed by downward-sloping consolidation near current price 1684.75.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710 to confirm bullish continuation.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T16:34:24.927062+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price reached local high near 1710 and is pulling back; potential second top formation if resistance is retested.",
+        "missing_conditions": "Second peak at or near 1710 followed by breakdown below neckline around 1675.",
+        "pattern_id": "5dd3eff5-db63-4e82-9559-3278f7e615ca",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:54.148130+00:00",
+        "last_seen": "2026-11-21T16:34:24.927062+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Strong upward impulse from 1575 to 1710 followed by consolidation at 1684.75; potential bullish flag forming at the top of the move.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "Pattern confirmation requires breakout beyond current consolidation.",
+      "Volume profile not fully visible for confirmation."
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.777361983983038,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "current_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1670.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1575 to 1710 followed by downward-sloping consolidation near current price 1684.75.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710 to confirm bullish continuation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price reached local high near 1710 and is pulling back; potential second top formation if resistance is retested.",
+        "missing_conditions": "Second peak at or near 1710 followed by breakdown below neckline around 1675."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1670.0,
+          "trigger_level": 1710.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1575 to 1710 followed by downward-sloping consolidation near current price 1684.75.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710 to confirm bullish continuation.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T16:34:24.927062+00:00",
+        "detections": 3,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1675.0,
+          "invalidation_level": 1710.0
+        },
+        "confidence": 55,
+        "evidence": "Price reached local high near 1710 and is pulling back; potential second top formation if resistance is retested.",
+        "missing_conditions": "Second peak at or near 1710 followed by breakdown below neckline around 1675.",
+        "pattern_id": "5dd3eff5-db63-4e82-9559-3278f7e615ca",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:54.148130+00:00",
+        "last_seen": "2026-11-21T16:34:24.927062+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      }
+    ]
+  }
+}

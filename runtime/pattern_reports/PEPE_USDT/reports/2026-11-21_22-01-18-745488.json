@@ -1,0 +1,214 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-21T22:01:17.687800+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-21T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-21T22:00:10+05:30",
+    "last_price": 3.4e-06,
+    "candle_timestamp": 1795278600000,
+    "open": 3.4e-06,
+    "high": 3.4e-06,
+    "low": 3.4e-06,
+    "close": 3.4e-06,
+    "volume": 5786029.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.25e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing highs near 0.0000035 are visible: one around 02:15-04:00 and another around 17:15-18:00. Price has declined from the second top to current ~0.0000034. The intervening low near 0.00000325 forms the neckline.",
+        "missing_conditions": "Confirmation break below neckline at ~0.00000325. Pattern is not yet complete."
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish market structure from the 0.0000032 low to the 0.0000035 high is showing weakness with rejection at 0.0000035 and decline toward 0.0000034.",
+        "missing_conditions": "Clear break below the most recent higher low to confirm bearish CHoCH."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.25e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing highs near 0.0000035 are visible: one around 02:15-04:00 and another around 17:15-18:00. Price has declined from the second top to current ~0.0000034. The intervening low near 0.00000325 forms the neckline.",
+        "missing_conditions": "Confirmation break below neckline at ~0.00000325. Pattern is not yet complete.",
+        "pattern_id": "4a126e2b-0d99-40ec-becd-78ff5c3aa934",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:31:17.686577+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish market structure from the 0.0000032 low to the 0.0000035 high is showing weakness with rejection at 0.0000035 and decline toward 0.0000034.",
+        "missing_conditions": "Clear break below the most recent higher low to confirm bearish CHoCH.",
+        "pattern_id": "b7f59b97-15f8-4291-a527-5b578e9119a0",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:31:17.686577+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price formed two highs near 0.0000035 separated by a decline to ~0.00000325. Current price at ~0.0000034 after rejection from 0.0000035. No confirmed breakout or breakdown yet.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below neckline",
+      "Wide time separation between double top peaks reduces reliability"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.8147106143714389,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "current_patterns_considered": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.25e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing highs near 0.0000035 are visible: one around 02:15-04:00 and another around 17:15-18:00. Price has declined from the second top to current ~0.0000034. The intervening low near 0.00000325 forms the neckline.",
+        "missing_conditions": "Confirmation break below neckline at ~0.00000325. Pattern is not yet complete."
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish market structure from the 0.0000032 low to the 0.0000035 high is showing weakness with rejection at 0.0000035 and decline toward 0.0000034.",
+        "missing_conditions": "Clear break below the most recent higher low to confirm bearish CHoCH."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.25e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing highs near 0.0000035 are visible: one around 02:15-04:00 and another around 17:15-18:00. Price has declined from the second top to current ~0.0000034. The intervening low near 0.00000325 forms the neckline.",
+        "missing_conditions": "Confirmation break below neckline at ~0.00000325. Pattern is not yet complete.",
+        "pattern_id": "4a126e2b-0d99-40ec-becd-78ff5c3aa934",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:31:17.686577+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish market structure from the 0.0000032 low to the 0.0000035 high is showing weakness with rejection at 0.0000035 and decline toward 0.0000034.",
+        "missing_conditions": "Clear break below the most recent higher low to confirm bearish CHoCH.",
+        "pattern_id": "b7f59b97-15f8-4291-a527-5b578e9119a0",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:31:17.686577+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

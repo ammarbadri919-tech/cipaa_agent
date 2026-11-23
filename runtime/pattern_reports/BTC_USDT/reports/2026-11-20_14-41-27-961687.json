@@ -1,0 +1,88 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-20T14:41:26.037898+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-20T14:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-20T14:40:50+05:30",
+    "last_price": 61814.14,
+    "candle_timestamp": 1795165200000,
+    "open": 61833.19,
+    "high": 61854.05,
+    "low": 61650.0,
+    "close": 61814.14,
+    "volume": 72.02286,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61500.0,
+          "trigger_level": 62500.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing lows visible near the 61500 level separated by a rally to approximately 62500. Price is currently holding above the second low and testing the area below the neckline resistance.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:11:26.035537+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price action shows two comparable lows near 61500 with an intervening peak near 62500, forming the visual basis of a double bottom. Current price is consolidating between support and resistance without a clear directional breakout.",
+    "limitations": [
+      "Pattern is not yet confirmed; breakout above neckline required",
+      "Current candle may still be forming",
+      "A breakdown below 61500 would invalidate the double bottom setup"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.8225908389378612,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "patterns_considered": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61500.0,
+          "trigger_level": 62500.0,
+          "invalidation_level": 61400.0
+        },
+        "confidence": 60,
+        "evidence": "Two distinct swing lows visible near the 61500 level separated by a rally to approximately 62500. Price is currently holding above the second low and testing the area below the neckline resistance.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:11:26.035537+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

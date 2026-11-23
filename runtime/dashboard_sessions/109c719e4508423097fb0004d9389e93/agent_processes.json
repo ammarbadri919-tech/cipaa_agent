@@ -1,0 +1,1 @@
+{"market_results": {"pid": 23846, "module": "agents.market_scanner.agent"}, "news_results": {"pid": 23848, "module": "agents.news_agent.agent"}, "pattern_results": {"pid": 23849, "module": "agents.pattern_decision_agent.agent"}}

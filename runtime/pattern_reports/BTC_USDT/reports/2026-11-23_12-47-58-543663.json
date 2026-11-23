@@ -1,0 +1,296 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-23T12:47:50.618542+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-23T12:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-23T12:47:10+05:30",
+    "last_price": 61512.01,
+    "candle_timestamp": 1795418100000,
+    "open": 61535.5,
+    "high": 61566.44,
+    "low": 61502.31,
+    "close": 61512.01,
+    "volume": 26.60882,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61000.0,
+          "level_low": 60500.0,
+          "trigger_level": 60800.0,
+          "invalidation_level": 60300.0
+        },
+        "confidence": 65,
+        "evidence": "Price dipped to approximately 60500 around 08:00, sweeping prior equal lows, before reversing sharply upward with strong bullish candles.",
+        "missing_conditions": "Awaiting sustained break of structure above local highs to confirm bullish continuation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61000.0,
+          "invalidation_level": 61800.0
+        },
+        "confidence": 60,
+        "evidence": "Two swing highs visible near 61500-61700 separated by a swing low around 60500. Price is currently testing the second high at resistance.",
+        "missing_conditions": "Confirmation breakdown below the neckline around 61000-61200."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61700.0,
+          "invalidation_level": 60500.0
+        },
+        "confidence": 55,
+        "evidence": "Strong impulsive rally from 60500 to 61700 followed by consolidation near the top of the move.",
+        "missing_conditions": "Clear flag channel formation and decisive breakout above flag resistance."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61000.0,
+          "level_low": 60500.0,
+          "trigger_level": 60800.0,
+          "invalidation_level": 60300.0
+        },
+        "confidence": 65,
+        "evidence": "Price dipped to approximately 60500 around 08:00, sweeping prior equal lows, before reversing sharply upward with strong bullish candles.",
+        "missing_conditions": "Awaiting sustained break of structure above local highs to confirm bullish continuation.",
+        "pattern_id": "1d6bdb00-461c-4b49-ad80-2ff6cf563736",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:50.594720+00:00",
+        "last_seen": "2026-11-23T07:17:50.594720+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61000.0,
+          "invalidation_level": 61800.0
+        },
+        "confidence": 60,
+        "evidence": "Two swing highs visible near 61500-61700 separated by a swing low around 60500. Price is currently testing the second high at resistance.",
+        "missing_conditions": "Confirmation breakdown below the neckline around 61000-61200.",
+        "pattern_id": "80ea06f5-4266-42a3-99a1-733eccec0fc4",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:50.594720+00:00",
+        "last_seen": "2026-11-23T07:17:50.594720+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61700.0,
+          "invalidation_level": 60500.0
+        },
+        "confidence": 55,
+        "evidence": "Strong impulsive rally from 60500 to 61700 followed by consolidation near the top of the move.",
+        "missing_conditions": "Clear flag channel formation and decisive breakout above flag resistance.",
+        "pattern_id": "d63a80ca-35d6-4873-a50b-30d1261e4923",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:50.594720+00:00",
+        "last_seen": "2026-11-23T07:17:50.594720+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "UNCLEAR",
+    "confidence": 55,
+    "visual_evidence": "Price has made higher highs from 60500 to 61700 but is currently consolidating at resistance. A liquidity sweep occurred at 60500, followed by a strong rally. Price is testing prior highs with potential double top formation.",
+    "limitations": [
+      "15m chart compression makes precise candlestick pattern identification difficult.",
+      "Latest candle may still be forming, so pattern status could change.",
+      "Volume profile is not clearly visible for confirmation."
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "reason": "Decision returned by Gemini. Explanation not yet available.",
+    "decision_confidence": 0.992789223941717,
+    "model": "gemini-decision-1",
+    "current_patterns_considered": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61000.0,
+          "level_low": 60500.0,
+          "trigger_level": 60800.0,
+          "invalidation_level": 60300.0
+        },
+        "confidence": 65,
+        "evidence": "Price dipped to approximately 60500 around 08:00, sweeping prior equal lows, before reversing sharply upward with strong bullish candles.",
+        "missing_conditions": "Awaiting sustained break of structure above local highs to confirm bullish continuation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61000.0,
+          "invalidation_level": 61800.0
+        },
+        "confidence": 60,
+        "evidence": "Two swing highs visible near 61500-61700 separated by a swing low around 60500. Price is currently testing the second high at resistance.",
+        "missing_conditions": "Confirmation breakdown below the neckline around 61000-61200."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61700.0,
+          "invalidation_level": 60500.0
+        },
+        "confidence": 55,
+        "evidence": "Strong impulsive rally from 60500 to 61700 followed by consolidation near the top of the move.",
+        "missing_conditions": "Clear flag channel formation and decisive breakout above flag resistance."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61000.0,
+          "level_low": 60500.0,
+          "trigger_level": 60800.0,
+          "invalidation_level": 60300.0
+        },
+        "confidence": 65,
+        "evidence": "Price dipped to approximately 60500 around 08:00, sweeping prior equal lows, before reversing sharply upward with strong bullish candles.",
+        "missing_conditions": "Awaiting sustained break of structure above local highs to confirm bullish continuation.",
+        "pattern_id": "1d6bdb00-461c-4b49-ad80-2ff6cf563736",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:50.594720+00:00",
+        "last_seen": "2026-11-23T07:17:50.594720+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61000.0,
+          "invalidation_level": 61800.0
+        },
+        "confidence": 60,
+        "evidence": "Two swing highs visible near 61500-61700 separated by a swing low around 60500. Price is currently testing the second high at resistance.",
+        "missing_conditions": "Confirmation breakdown below the neckline around 61000-61200.",
+        "pattern_id": "80ea06f5-4266-42a3-99a1-733eccec0fc4",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:50.594720+00:00",
+        "last_seen": "2026-11-23T07:17:50.594720+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 61700.0,
+          "level_low": 60500.0,
+          "trigger_level": 61700.0,
+          "invalidation_level": 60500.0
+        },
+        "confidence": 55,
+        "evidence": "Strong impulsive rally from 60500 to 61700 followed by consolidation near the top of the move.",
+        "missing_conditions": "Clear flag channel formation and decisive breakout above flag resistance.",
+        "pattern_id": "d63a80ca-35d6-4873-a50b-30d1261e4923",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-23T07:17:50.594720+00:00",
+        "last_seen": "2026-11-23T07:17:50.594720+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

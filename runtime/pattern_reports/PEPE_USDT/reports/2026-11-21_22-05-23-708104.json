@@ -1,0 +1,276 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-21T22:05:21.932110+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-21T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-21T22:04:30+05:30",
+    "last_price": 3.39e-06,
+    "candle_timestamp": 1795278600000,
+    "open": 3.4e-06,
+    "high": 3.41e-06,
+    "low": 3.39e-06,
+    "close": 3.39e-06,
+    "volume": 8113244789.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.2e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 72,
+        "evidence": "Two distinct price peaks visible at approximately 0.0000035 separated by a significant decline to around 0.0000032. Price is currently retreating from the second peak at approximately 0.00000339.",
+        "missing_conditions": "Price has not yet broken below the neckline support around 0.0000032-0.00000325 to confirm the reversal."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.2e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 72,
+        "evidence": "Two distinct price peaks visible at approximately 0.0000035 separated by a significant decline to around 0.0000032. Price is currently retreating from the second peak at approximately 0.00000339.",
+        "missing_conditions": "Price has not yet broken below the neckline support around 0.0000032-0.00000325 to confirm the reversal.",
+        "pattern_id": "4a126e2b-0d99-40ec-becd-78ff5c3aa934",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:35:21.920555+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish market structure from the 0.0000032 low to the 0.0000035 high is showing weakness with rejection at 0.0000035 and decline toward 0.0000034.",
+        "missing_conditions": "Clear break below the most recent higher low to confirm bearish CHoCH.",
+        "pattern_id": "b7f59b97-15f8-4291-a527-5b578e9119a0",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:31:17.686577+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.3e-06,
+          "trigger_level": 3.3e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 60,
+        "evidence": "Market structure was bullish with higher highs and higher lows from the 0.0000032 low. Price recently made a high at 0.0000035 and is now declining, threatening to break the most recent higher low around 0.0000033.",
+        "missing_conditions": "A confirmed break below the recent swing low/higher low at approximately 0.0000033 is required to confirm bearish CHoCH.",
+        "pattern_id": "3db3f5d3-d92b-44fc-94c4-a587eabaa297",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:13.716579+00:00",
+        "last_seen": "2026-11-21T16:34:21.286478+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Shooting Star",
+        "type": "CANDLESTICK",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.4e-06,
+          "trigger_level": 3.4e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "A candle near the recent high at 0.0000035 shows a long upper wick with rejection from that level, consistent with a shooting star formation.",
+        "missing_conditions": "Confirmation requires the next candle to close lower, ideally below the shooting star's low.",
+        "pattern_id": "b6ec1ed5-14c7-4b23-ad54-08ba84eaee1f",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:34:21.286478+00:00",
+        "last_seen": "2026-11-21T16:34:21.286478+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 72,
+    "visual_evidence": "Price tested resistance at 0.0000035 twice with a major low around 0.0000032 between tests. Current price action is bearish and moving down from the second top.",
+    "limitations": [
+      "Pattern not yet confirmed by neckline break",
+      "Current 15m candle may still be forming",
+      "High volatility in crypto markets can invalidate patterns quickly"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.78655270116029,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "current_patterns_considered": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.2e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 72,
+        "evidence": "Two distinct price peaks visible at approximately 0.0000035 separated by a significant decline to around 0.0000032. Price is currently retreating from the second peak at approximately 0.00000339.",
+        "missing_conditions": "Price has not yet broken below the neckline support around 0.0000032-0.00000325 to confirm the reversal."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.2e-06,
+          "trigger_level": 3.25e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 72,
+        "evidence": "Two distinct price peaks visible at approximately 0.0000035 separated by a significant decline to around 0.0000032. Price is currently retreating from the second peak at approximately 0.00000339.",
+        "missing_conditions": "Price has not yet broken below the neckline support around 0.0000032-0.00000325 to confirm the reversal.",
+        "pattern_id": "4a126e2b-0d99-40ec-becd-78ff5c3aa934",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:35:21.920555+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.35e-06,
+          "trigger_level": 3.35e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 50,
+        "evidence": "Prior bullish market structure from the 0.0000032 low to the 0.0000035 high is showing weakness with rejection at 0.0000035 and decline toward 0.0000034.",
+        "missing_conditions": "Clear break below the most recent higher low to confirm bearish CHoCH.",
+        "pattern_id": "b7f59b97-15f8-4291-a527-5b578e9119a0",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:31:17.686577+00:00",
+        "last_seen": "2026-11-21T16:31:17.686577+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "direction": "SHORT",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.3e-06,
+          "trigger_level": 3.3e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 60,
+        "evidence": "Market structure was bullish with higher highs and higher lows from the 0.0000032 low. Price recently made a high at 0.0000035 and is now declining, threatening to break the most recent higher low around 0.0000033.",
+        "missing_conditions": "A confirmed break below the recent swing low/higher low at approximately 0.0000033 is required to confirm bearish CHoCH.",
+        "pattern_id": "3db3f5d3-d92b-44fc-94c4-a587eabaa297",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:13.716579+00:00",
+        "last_seen": "2026-11-21T16:34:21.286478+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Shooting Star",
+        "type": "CANDLESTICK",
+        "direction": "SHORT",
+        "status": "DETECTED",
+        "formation_start_time": null,
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 3.5e-06,
+          "level_low": 3.4e-06,
+          "trigger_level": 3.4e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "A candle near the recent high at 0.0000035 shows a long upper wick with rejection from that level, consistent with a shooting star formation.",
+        "missing_conditions": "Confirmation requires the next candle to close lower, ideally below the shooting star's low.",
+        "pattern_id": "b6ec1ed5-14c7-4b23-ad54-08ba84eaee1f",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:34:21.286478+00:00",
+        "last_seen": "2026-11-21T16:34:21.286478+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

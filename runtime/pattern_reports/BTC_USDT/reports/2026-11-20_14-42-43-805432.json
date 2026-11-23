@@ -1,0 +1,130 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-20T14:42:42.763418+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-20T14:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-20T14:41:51+05:30",
+    "last_price": 61772.1,
+    "candle_timestamp": 1795165200000,
+    "open": 61833.19,
+    "high": 61854.05,
+    "low": 61650.0,
+    "close": 61772.1,
+    "volume": 78.64931,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61600.0,
+          "trigger_level": 62500.0,
+          "invalidation_level": 61500.0
+        },
+        "confidence": 65,
+        "evidence": "Two distinct swing lows are visible around 61700 and 61600 with an intervening rally to approximately 62500. Price is currently retesting the second low area near 61772.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:12:42.759466+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61600.0,
+          "trigger_level": 61600.0,
+          "invalidation_level": 62200.0
+        },
+        "confidence": 60,
+        "evidence": "Price is forming lower highs (approximately 62500, 62200, 62000) while holding horizontal support near 61600-61700.",
+        "pattern_id": "cf6f1a80-b724-4cb8-ba67-1a70a67a9396",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:42.759466+00:00",
+        "last_seen": "2026-11-20T09:12:42.759466+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price has declined from approximately 64000 to the 61600-61700 support zone and is consolidating. Competing reversal (double bottom) and continuation (descending triangle) structures are visible.",
+    "limitations": [
+      "Patterns are incomplete and lack breakout confirmation",
+      "15m timeframe increases noise and false signal risk",
+      "Key levels are visual estimates from chart grid"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.6347952482751184,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "patterns_considered": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62500.0,
+          "level_low": 61600.0,
+          "trigger_level": 62500.0,
+          "invalidation_level": 61500.0
+        },
+        "confidence": 65,
+        "evidence": "Two distinct swing lows are visible around 61700 and 61600 with an intervening rally to approximately 62500. Price is currently retesting the second low area near 61772.",
+        "pattern_id": "ad492500-06d5-4d20-943b-f871ab13eaac",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:26.035537+00:00",
+        "last_seen": "2026-11-20T09:12:42.759466+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 62200.0,
+          "level_low": 61600.0,
+          "trigger_level": 61600.0,
+          "invalidation_level": 62200.0
+        },
+        "confidence": 60,
+        "evidence": "Price is forming lower highs (approximately 62500, 62200, 62000) while holding horizontal support near 61600-61700.",
+        "pattern_id": "cf6f1a80-b724-4cb8-ba67-1a70a67a9396",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:42.759466+00:00",
+        "last_seen": "2026-11-20T09:12:42.759466+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

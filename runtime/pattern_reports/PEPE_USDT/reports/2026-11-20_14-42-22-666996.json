@@ -1,0 +1,172 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-20T14:42:21.535258+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-20T14:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-20T14:41:53+05:30",
+    "last_price": 3.6e-06,
+    "candle_timestamp": 1795165200000,
+    "open": 3.6e-06,
+    "high": 3.61e-06,
+    "low": 3.58e-06,
+    "close": 3.6e-06,
+    "volume": 24729462876.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.65e-06,
+          "level_low": 3.55e-06,
+          "trigger_level": 3.65e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 65,
+        "evidence": "Price formed an initial low near 0.00000355 after a sharp decline, bounced to approximately 0.00000365, and is currently retesting the low area around 0.00000358-0.00000360.",
+        "pattern_id": "30d7b331-23d7-4070-bf66-e0084f6190c0",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:34.147700+00:00",
+        "last_seen": "2026-11-20T09:12:21.533246+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.65e-06,
+          "level_low": 3.58e-06,
+          "trigger_level": 3.55e-06,
+          "invalidation_level": 3.7e-06
+        },
+        "confidence": 50,
+        "evidence": "Sharp downward impulse followed by slight upward drift and consolidation near recent lows.",
+        "pattern_id": "4b62726b-4830-462a-9f71-9af4d09ac1b7",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:34.147700+00:00",
+        "last_seen": "2026-11-20T09:11:34.147700+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Falling Wedge",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.65e-06,
+          "level_low": 3.55e-06,
+          "trigger_level": 3.68e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "Recent price action shows contracting volatility with lower highs and higher lows following the decline, forming a wedge-like consolidation near the 0.0000036 level.",
+        "pattern_id": "295eb5e3-5b9b-4214-a6da-7b5152a4e254",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:21.533246+00:00",
+        "last_seen": "2026-11-20T09:12:21.533246+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price is consolidating near recent lows after a sharp decline, with potential double bottom and wedge formations developing but no confirmed breakout yet.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close above resistance levels",
+      "Volume profile is inconclusive on this timeframe"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.7165314727518424,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "patterns_considered": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.65e-06,
+          "level_low": 3.55e-06,
+          "trigger_level": 3.65e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 65,
+        "evidence": "Price formed an initial low near 0.00000355 after a sharp decline, bounced to approximately 0.00000365, and is currently retesting the low area around 0.00000358-0.00000360.",
+        "pattern_id": "30d7b331-23d7-4070-bf66-e0084f6190c0",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:34.147700+00:00",
+        "last_seen": "2026-11-20T09:12:21.533246+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.65e-06,
+          "level_low": 3.58e-06,
+          "trigger_level": 3.55e-06,
+          "invalidation_level": 3.7e-06
+        },
+        "confidence": 50,
+        "evidence": "Sharp downward impulse followed by slight upward drift and consolidation near recent lows.",
+        "pattern_id": "4b62726b-4830-462a-9f71-9af4d09ac1b7",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:11:34.147700+00:00",
+        "last_seen": "2026-11-20T09:11:34.147700+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Falling Wedge",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 3.65e-06,
+          "level_low": 3.55e-06,
+          "trigger_level": 3.68e-06,
+          "invalidation_level": 3.5e-06
+        },
+        "confidence": 55,
+        "evidence": "Recent price action shows contracting volatility with lower highs and higher lows following the decline, forming a wedge-like consolidation near the 0.0000036 level.",
+        "pattern_id": "295eb5e3-5b9b-4214-a6da-7b5152a4e254",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-20T09:12:21.533246+00:00",
+        "last_seen": "2026-11-20T09:12:21.533246+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-21T22:02:01.666215+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-21T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-21T22:01:12+05:30",
+    "last_price": 1683.43,
+    "candle_timestamp": 1795278600000,
+    "open": 1683.01,
+    "high": 1683.66,
+    "low": 1682.11,
+    "close": 1683.43,
+    "volume": 115.6175,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "current_detections": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1715.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 1550 to 1710 followed by tight consolidation near 1680-1700 with contracting range, forming a downward-sloping channel after the impulse.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710-1715 to confirm continuation."
+      }
+    ],
+    "tracked_patterns": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1715.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 1550 to 1710 followed by tight consolidation near 1680-1700 with contracting range, forming a downward-sloping channel after the impulse.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710-1715 to confirm continuation.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T16:32:01.628602+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price is consolidating near recent highs after a strong upward impulse from the 1550 swing low, maintaining higher highs and higher lows.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact wick levels difficult to determine from image",
+      "Volume profile not precisely readable"
+    ]
+  },
+  "gemini_decision": {
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "decision": "WAIT",
+    "decision_confidence": 0.8625075296442343,
+    "model": "gemini-decision-1",
+    "explanation": "Wait for stronger confirmation or clearer market conditions.",
+    "current_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1715.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 1550 to 1710 followed by tight consolidation near 1680-1700 with contracting range, forming a downward-sloping channel after the impulse.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710-1715 to confirm continuation."
+      }
+    ],
+    "tracked_patterns_considered": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "direction": "LONG",
+        "status": "DEVELOPING",
+        "formation_start_time": null,
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1710.0,
+          "level_low": 1675.0,
+          "trigger_level": 1715.0,
+          "invalidation_level": 1660.0
+        },
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 1550 to 1710 followed by tight consolidation near 1680-1700 with contracting range, forming a downward-sloping channel after the impulse.",
+        "missing_conditions": "Breakout above flag resistance at approximately 1710-1715 to confirm continuation.",
+        "pattern_id": "d350fb24-8ecf-4ab9-a9ec-62febc1c03e9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-21T16:32:01.628602+00:00",
+        "last_seen": "2026-11-21T16:32:01.628602+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ]
+  }
+}
