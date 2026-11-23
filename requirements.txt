@@ -1,4 +1,5 @@
-rdian — backend and agent dependencies
+
+# CryptoGuardian — backend and agent dependencies
 
 # API server and real-time dashboard communication
 fastapi
