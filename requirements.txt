@@ -1,4 +1,4 @@
-# CryptoGuardian — backend and agent dependencies
+rdian — backend and agent dependencies
 
 # API server and real-time dashboard communication
 fastapi
@@ -14,19 +14,21 @@ langgraph-checkpoint-postgres
 google-genai
 openai
 
-# Local Kronos forecasting model
-torch
+# Local Kronos-base forecasting model
+torch>=2.0.0
 transformers
-huggingface-hub
-einops
+huggingface-hub==0.33.1
+einops==0.8.1
+safetensors==0.6.2
+tqdm==4.67.1
 
 # Market data and numerical analysis
 ccxt
-pandas
 numpy
+pandas==2.2.2
 
 # Chart generation and image processing
-matplotlib
+matplotlib==3.9.3
 mplfinance
 Pillow
 
@@ -34,7 +36,7 @@ Pillow
 feedparser
 requests
 tinyfish
-six
+
 # PostgreSQL
 psycopg[binary,pool]
 
@@ -45,4 +47,3 @@ langsmith
 # Testing
 pytest
 httpx
-
